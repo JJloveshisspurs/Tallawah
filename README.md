@@ -1,2 +1,2 @@
 # Tallawah
-BiG Byt 2024 gamejam project
+BiG Byte 2024 gamejam project
