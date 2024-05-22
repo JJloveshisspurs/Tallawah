@@ -12,7 +12,14 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         if (instance == null)
+        {
             instance = this;
+        }
+        else
+        {
+
+            DestroyObject(this.gameObject);
+        }
         
     }
 
