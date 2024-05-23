@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c6ed75cc6aed104994a72867b63b1be, type: 3}
+  m_Name: New Water Gun
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  limitUse: 0
+  ammo: 0
+  image: {fileID: 21300000, guid: 674abd687a5cfb045a28f8ed0aeac3fc, type: 3}
+  movement: {fileID: 0}
+  interaction: {fileID: 0}
+  bullet: {fileID: 8596196557668933060, guid: 53ba72390e4dccb43be9308bad2209fc, type: 3}
