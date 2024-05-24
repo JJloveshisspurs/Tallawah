@@ -640,6 +640,9 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d9eab4166d64c48839bc9250f7e70e5b, type: 3}
     custom_Volume: 0
     musicTrackSelection: 3
+  - audioClip: {fileID: 8300000, guid: d316f4ec1dea848e1ac5a44a5c40bd86, type: 3}
+    custom_Volume: 0
+    musicTrackSelection: 4
   SFX_Items:
   - audioClip: {fileID: 8300000, guid: 58bf2f5a25e0a451388a96989350a745, type: 3}
     custom_Volume: 0
