@@ -35,17 +35,28 @@ public class Counter : MonoBehaviour
         
     }
 
-  
     public void IncreaseCoins(int amount)
     {
         currentCoins += amount;
 
+        if (currentCoins < 0)
+        {
+            currentCoins = 0;
+        }
+
         coinText.text =  "COINS:" + currentCoins.ToString();
+
     }
 
     public void DecreaseCoins(int amount)
     {
         currentCoins -= amount;
+
+        if(currentCoins < 0)
+        {
+            currentCoins = 0;
+        }
+
         coinText.text = "COINS: " + currentCoins.ToString();
     }
 
