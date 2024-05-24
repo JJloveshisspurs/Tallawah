@@ -29,11 +29,12 @@ public class Coins : MonoBehaviour
             Counter.instance.IncreaseCoins(value);
 
         }
-       
-       if(other.gameObject.CompareTag("badCoin"))
+        else if(other.gameObject.CompareTag("badCoin"))
         {
             Destroy(gameObject);
             Counter.instance.DecreaseCoins(value);
         }
+       
+      
     }
 }
