@@ -8,7 +8,7 @@ public class Counter : MonoBehaviour
     public static Counter instance;
     public TMP_Text coinText;
     public int currentCoins = 0;
-    public int maxCoins = 7;
+    public int maxCoins;
     private bool rastaManActive = false;
 
     private void Awake()
@@ -70,6 +70,6 @@ public class Counter : MonoBehaviour
     {
         rastaManActive = true;
         Debug.Log("RastaMan Activated");
-        // Add your logic here for RastaMan's appearance.
+    
     }
 }

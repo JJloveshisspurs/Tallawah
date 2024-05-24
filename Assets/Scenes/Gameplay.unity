@@ -572,6 +572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinText: {fileID: 2042197020}
   currentCoins: 0
+  maxCoins: 7
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,7 +1657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0031b5797be443d46ad38a1998b4210d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 5
+  value: 7
 --- !u!1 &2032841853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1775,8 +1776,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -123.7, y: -26.600006}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -145.85158, y: -26.600006}
+  m_SizeDelta: {x: 244.3032, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042197020
 MonoBehaviour:
