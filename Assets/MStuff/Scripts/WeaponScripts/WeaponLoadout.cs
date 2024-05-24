@@ -10,6 +10,7 @@ public class WeaponLoadout : ScriptableObject
     public bool limitUse = false;
     public int ammo = 0;
     public Sprite image;
+    public int power = 1;
     public virtual void useWeapon(GameObject parent)
     {
 

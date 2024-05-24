@@ -44,7 +44,7 @@ public class EnemyBehaviour : MonoBehaviour
 
     }
 
-    public virtual void damage(float disturbTime, string tag)
+    public virtual void damage(int disturbTime, string tag)
     {
         
     }

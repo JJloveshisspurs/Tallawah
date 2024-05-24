@@ -7,6 +7,8 @@ public class ProjectileScript : MonoBehaviour
     public string dir;
     public float speed = 1.0f;
     public Rigidbody2D rb;
+
+    public int attack;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +42,7 @@ public class ProjectileScript : MonoBehaviour
     {
         if(obj.gameObject.tag == "Enemy")
         {
-           obj.gameObject.GetComponent<EnemyBehaviour>().damage(2.0f, gameObject.tag);
+           obj.gameObject.GetComponent<EnemyBehaviour>().damage(attack, gameObject.tag);
         }
 
         if(obj.gameObject.tag != "Player")

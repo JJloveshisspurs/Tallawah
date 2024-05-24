@@ -40,15 +40,15 @@ public class DogEnemybehaviour : EnemyBehaviour
         }
     }
 
-    public override void damage(float disturbTime, string tag)
+    public override void damage(int a, string tag)
     {
         if(tag == "Water")
         {
-            irratationlvl -= 10;
+            irratationlvl -= a;
             disturb = true;
-            StartCoroutine(reset(disturbTime));
+            StartCoroutine(reset(1.0f));
         }
-        if(irratationlvl == 0)
+        if(irratationlvl <= 0)
         {
             if(currency > 0.0f)
             {
@@ -80,8 +80,8 @@ public class DogEnemybehaviour : EnemyBehaviour
     }
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if(!disturb)
-        {
+        //if(!disturb)
+        //{
             if(obj.gameObject.tag =="Player")
             {   
                 obj.gameObject.GetComponent<PlayerManagementScript>().Damage(dPercentage, GetComponent<DogEnemybehaviour>());
@@ -89,7 +89,7 @@ public class DogEnemybehaviour : EnemyBehaviour
             }
 
             
-        }
+        //}
     }
    
 }
