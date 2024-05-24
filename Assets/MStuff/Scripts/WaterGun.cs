@@ -9,6 +9,7 @@ public class WaterGun : WeaponLoadout
     public InteractionButtonScript interaction;
     public GameObject bullet;
     private string dir;
+    
 
     public override void useWeapon(GameObject parent)
     {
@@ -42,5 +43,7 @@ public class WaterGun : WeaponLoadout
 
         GameObject bull = Instantiate(bullet, spawnPos.position, Quaternion.identity) as GameObject;
         bull.GetComponent<ProjectileScript>().dir = dir;
+        int addp = parent.GetComponent<InteractionButtonScript>().additionalPower;
+        bull.GetComponent<ProjectileScript>().attack = power + addp;
     }
 }

@@ -7,7 +7,9 @@ public class AssistButton : MonoBehaviour
     public bool assistActive = false;
     public float assistGuage = 0.0f;
     public float assistGuageLimit = 50.0f;
+
     Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,8 @@ public class AssistButton : MonoBehaviour
         }
     }
 
+
+
     public void pause()
     {
         Time.timeScale = 0f;
@@ -37,5 +41,12 @@ public class AssistButton : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         Debug.Log("yo");
+    }
+
+    IEnumerator assistPower()
+    {
+        GetComponent<InteractionButtonScript>().additionalPower = 3;
+        yield return new WaitForSeconds(30f);
+        GetComponent<InteractionButtonScript>().additionalPower = 0;
     }
 }

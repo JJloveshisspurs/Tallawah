@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class InteractionButtonScript : MonoBehaviour
 {
+    
     public WeaponLoadout wepn;
     public Transform up;
     public Transform down;
     public Transform left;
     public Transform right;
 
+    public int additionalPower = 0;
     
     private void Update()
     {
