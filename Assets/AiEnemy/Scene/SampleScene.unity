@@ -273,6 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d559778c1d853c48b77eaec74640bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movSpeed: 0
 --- !u!212 &670394082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -460,10 +461,6 @@ PrefabInstance:
     - target: {fileID: 1296980096166786301, guid: aedf6504ccea1ee4592a7cb4fb4b483c, type: 3}
       propertyPath: m_Name
       value: TestWall
-      objectReference: {fileID: 0}
-    - target: {fileID: 3023817977892943923, guid: aedf6504ccea1ee4592a7cb4fb4b483c, type: 3}
-      propertyPath: m_BodyType
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

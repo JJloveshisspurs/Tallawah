@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 377684256708003076}
   - component: {fileID: 5997235460665849078}
   - component: {fileID: 1793844582375083161}
+  - component: {fileID: 8106211034210581283}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.74, y: 4.91, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -806381915, guid: 1560502b968b77240bb538319141e012, type: 3}
   m_Color: {r: 0.8584906, g: 0.14173192, b: 0.14173192, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -133,18 +134,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.013653755, y: 0.013653636}
+  m_Offset: {x: 0.004008591, y: -0.001065053}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.25, y: 0.29}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9726944, y: 0.9453862}
+  m_Size: {x: 0.31329823, y: 0.31542724}
   m_EdgeRadius: 0
 --- !u!50 &1793844582375083161
 Rigidbody2D:
@@ -173,3 +174,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8106211034210581283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127150247376398916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae574b4ef4007b9439e5f00ee15d7a6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 8230015944561325293}
+  images:
+  - {fileID: 745217155, guid: 81769b8a8e45c4b40a45a6c422da721e, type: 3}
+  - {fileID: -1833687511, guid: 81769b8a8e45c4b40a45a6c422da721e, type: 3}
+  animationSpeed: 0.25
+  currentFrameIndex: 0
