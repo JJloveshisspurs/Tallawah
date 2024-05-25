@@ -8,6 +8,9 @@ public class AiChase : MonoBehaviour
     public float speed;
 
     private float distance;
+
+    public SpriteAnimator walking_Animation;
+    public SpriteAnimator running_Animation;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,23 @@ public class AiChase : MonoBehaviour
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
             transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+
+            if (running_Animation.enabled == false)
+            {
+                walking_Animation.enabled = false;
+                running_Animation.enabled = true;
+            }
+            
+        }
+        else
+        {
+
+            if (walking_Animation.enabled == false)
+            {
+                walking_Animation.enabled = true;
+                running_Animation.enabled = false;
+            }
+
         }
     }
 }
