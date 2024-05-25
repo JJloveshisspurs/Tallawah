@@ -36,7 +36,7 @@ public class NarrativeController : MonoBehaviour
         if(NarrativePanelIndex < narrativePages.Count)
         {
 
-            ClearandRenderCorrectNarrativePanel();
+          
 
         }
         else
@@ -75,6 +75,13 @@ public class NarrativeController : MonoBehaviour
 
         StopAllCoroutines();
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneToLoadOnNarrativeComplete);
+
+    }
+
+    public void FinishedPrintingNarrativeText()
+    {
+
+        ClearandRenderCorrectNarrativePanel();
 
     }
 }
