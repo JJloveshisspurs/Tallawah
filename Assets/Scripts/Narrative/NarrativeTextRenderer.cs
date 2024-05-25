@@ -11,6 +11,7 @@ public class NarrativeTextRenderer : MonoBehaviour
 
 
     public float textPrintRate = .02f;
+    public float pauseBetweenDialogUpdates = 3f;
 
     public NarrativeController narrativeController;
 
@@ -94,7 +95,7 @@ public class NarrativeTextRenderer : MonoBehaviour
         if(textField_Dialogue.text.Length >= dialogue[dialogueblockTextIndex].dialogue.Length)
         {
 
-            PrinteNextDialogueBlock();
+            StartCoroutine(PauseBetweenTextblocks());
 
         }
         else
@@ -105,6 +106,15 @@ public class NarrativeTextRenderer : MonoBehaviour
 
         }
 
+    }
+
+    IEnumerator PauseBetweenTextblocks()
+    {
+
+
+        yield return new WaitForSeconds(pauseBetweenDialogUpdates);
+
+        PrinteNextDialogueBlock();
     }
 
     public void PrinteNextDialogueBlock()

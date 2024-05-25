@@ -17,10 +17,10 @@ public class NarrativeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(DisplayNextPanel());
+        
     }
 
-    IEnumerator DisplayNextPanel()
+    public void DisplayCheckForNextPanel()
     {
 
         NarrativePanelIndex = NarrativePanelIndex + 1;
@@ -29,7 +29,7 @@ public class NarrativeController : MonoBehaviour
 
 
 
-        yield return new WaitForSeconds(delayBetweenPanels);
+       
 
 
 
@@ -67,7 +67,7 @@ public class NarrativeController : MonoBehaviour
         narrativePages[NarrativePanelIndex].SetActive(true);
 
 
-        StartCoroutine(DisplayNextPanel());
+        
     }
 
     public void LoadNextScene()
@@ -80,7 +80,7 @@ public class NarrativeController : MonoBehaviour
 
     public void FinishedPrintingNarrativeText()
     {
-
+        DisplayCheckForNextPanel();
         ClearandRenderCorrectNarrativePanel();
 
     }

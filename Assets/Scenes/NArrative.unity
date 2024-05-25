@@ -123,6 +123,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &555803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 555804}
+  m_Layer: 0
+  m_Name: DialogueBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555803}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.38629436, y: 0.38, z: -1.63}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 191102399}
+  m_Father: {fileID: 6097630697884834329}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &98079273
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,15 +181,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98079273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.63}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
+  m_LocalScale: {x: 0.07142857, y: 0.33333334, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6097630697884834329}
+  m_Father: {fileID: 191102399}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.03999996, y: 0.49000025}
+  m_AnchoredPosition: {x: 0.058, y: 0.06}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &98079275
@@ -249,12 +281,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
+  m_fontSize: 5.4
   m_fontSizeBase: 6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 18
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -285,7 +317,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.950203, y: 0, z: 13.988799, w: 1.929451}
+  m_margin: {x: 1.950203, y: 1.2312853, z: 13.988799, w: 3.1607332}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -294,6 +326,92 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 98079275}
   m_maskType: 0
+--- !u!1 &191102398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 191102399}
+  - component: {fileID: 191102400}
+  m_Layer: 0
+  m_Name: Square
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &191102399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191102398}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.4, z: 0}
+  m_LocalScale: {x: 14, y: 3, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 98079274}
+  - {fileID: 1218875730}
+  m_Father: {fileID: 555804}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &191102400
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191102398}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0.20754719, g: 0.16545035, b: 0.16545035, a: 0.99215686}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &297831029
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156499eea28494554b12e16c233c627e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeTextRender: 1
+  delayBeforeTextRender: 3.5
   dialogue:
   - characterName: Rasta man
     dialogue: '*kiss teeth* Too much gyabidge deh a Jamaica. If we nuh love & cherish
@@ -753,15 +871,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218875729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.63}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
+  m_LocalScale: {x: 0.07142857, y: 0.33333334, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6097630697884834329}
+  m_Father: {fileID: 191102399}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.03999996, y: 0.49000025}
+  m_AnchoredPosition: {x: 0.024735332, y: -0.54}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1218875731
@@ -814,12 +932,12 @@ MonoBehaviour:
   m_fontSize: 6
   m_fontSizeBase: 6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 6
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -847,7 +965,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 1.950203, y: 0, z: 2.6638227, w: 0}
+  m_margin: {x: 2.9095783, y: 0, z: 3.627399, w: 2.7302346}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1067,6 +1185,7 @@ MonoBehaviour:
   textField_Dialogue: {fileID: 1218875731}
   dialogue: []
   textPrintRate: 0.04
+  pauseBetweenDialogUpdates: 3
   narrativeController: {fileID: 6097630697884834328}
   dialogueblockTextIndex: 0
   dialogueLetterIndex: 0
@@ -1100,7 +1219,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662088640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1212,6 +1331,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SFXSelection: 11
+--- !u!114 &1923138930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923138926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156499eea28494554b12e16c233c627e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeTextRender: 1
+  dialogue:
+  - characterName: Rasta man
+    dialogue: '* Picks Up Trash*'
+  - characterName: Rasta man
+    dialogue: Likkle girl, if yuh pick up some ah di gyabidge mi -- WATCH DI MONGREL
+      DEH!
+  - characterName: Mongrel
+    dialogue: '*angry bark* '
+  - characterName: Seashell
+    dialogue: Oh no!
+  - characterName: Seashell
+    dialogue: '*coins drop*'
+  - characterName: Rasta man
+    dialogue: You alright?
+  - characterName: Seashell
+    dialogue: yeh. Di Dutty dawg tek mi money! Chur *kisses teeth*
+  - characterName: Rasta man
+    dialogue: '*chuckles* well, if yuh pick up di trash, mi guy some sittin if help
+      yuh '
+  - characterName: 
+    dialogue: '*Seashell acquires stick*'
+  - characterName: Seashell
+    dialogue: '[Di rasta man tell me fih pick up gyabidge, i wonder what else him
+      ave?]'
+  textRenderer: {fileID: 1662088641}
 --- !u!1 &2032709483 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7123898123257977706, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
@@ -1246,6 +1403,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1056382603001626404, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056382603001626404, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1056382603001626404, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4508
+      objectReference: {fileID: 0}
     - target: {fileID: 1459003086697200010, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1258,6 +1427,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2143260841474699625, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 880a54e501e3b40c690268fea93db462, type: 3}
+    - target: {fileID: 2153690756929659741, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5fdc62200e50b4abc936ab4f9995c007, type: 3}
     - target: {fileID: 2883751279562493500, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1330,6 +1507,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9011771190981647987, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4331
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011771190981647987, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4331
+      objectReference: {fileID: 0}
+    - target: {fileID: 9011771190981647987, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4331
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1353,10 +1542,7 @@ PrefabInstance:
       addedObject: {fileID: 521617300}
     - targetCorrespondingSourceObject: {fileID: 5207740915737185841, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 98079274}
-    - targetCorrespondingSourceObject: {fileID: 5207740915737185841, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1218875730}
+      addedObject: {fileID: 555804}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1504263274368187163, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       insertIndex: -1
@@ -1370,6 +1556,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4721841565282790247, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1923138927}
+    - targetCorrespondingSourceObject: {fileID: 4721841565282790247, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1923138930}
     - targetCorrespondingSourceObject: {fileID: 7123898123257977706, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2032709484}
@@ -1408,7 +1597,7 @@ MonoBehaviour:
   - {fileID: 662510007}
   - {fileID: 858010642}
   - {fileID: 481005161}
-  NarrativePanelIndex: -1
+  NarrativePanelIndex: 0
   delayBetweenPanels: 3
 --- !u!4 &6097630697884834329 stripped
 Transform:
