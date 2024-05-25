@@ -7,7 +7,9 @@ public class AssistButton : MonoBehaviour
     public bool assistActive = false;
     public float assistGuage = 0.0f;
     public float assistGuageLimit = 50.0f;
+    public GameObject cousin;
 
+    private GameObject temp; 
     Animator anim;
 
     // Start is called before the first frame update
@@ -26,6 +28,7 @@ public class AssistButton : MonoBehaviour
         if(Input.GetKeyDown("x"))
         {
             anim.Play("Player_Assist");
+            
         }
     }
 
@@ -34,12 +37,13 @@ public class AssistButton : MonoBehaviour
     public void pause()
     {
         Time.timeScale = 0f;
-
+        temp = Instantiate(cousin,transform.position, transform.rotation) as GameObject;
     }
 
     public void unpause()
     {
         Time.timeScale = 1.0f;
+        Destroy(temp);
         Debug.Log("yo");
     }
 

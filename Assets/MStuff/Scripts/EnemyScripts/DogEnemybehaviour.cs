@@ -80,8 +80,8 @@ public class DogEnemybehaviour : EnemyBehaviour
     }
     void OnTriggerEnter2D(Collider2D obj)
     {
-        //if(!disturb)
-        //{
+        if(!disturb)
+        {
             if(obj.gameObject.tag =="Player")
             {   
                 obj.gameObject.GetComponent<PlayerManagementScript>().Damage(dPercentage, GetComponent<DogEnemybehaviour>());
@@ -89,7 +89,7 @@ public class DogEnemybehaviour : EnemyBehaviour
             }
 
             
-        //}
+        }
     }
    
 }
