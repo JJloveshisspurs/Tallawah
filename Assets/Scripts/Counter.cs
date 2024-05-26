@@ -3,39 +3,73 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
 public class Counter : MonoBehaviour
 {
-
     public static Counter instance;
     public TMP_Text coinText;
     public int currentCoins = 0;
-
+    public int maxCoins;
+    private bool rastaManActive = false;
 
     private void Awake()
     {
-        instance = this;
+        // Ensure that only one instance of Counter exists.
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
     }
-    
 
     // Start is called before the first frame update
     void Start()
     {
-        coinText.text = currentCoins.ToString();
+        UpdateCoinText();
     }
 
-  
+    void Update()
+    {
+        if (currentCoins >= maxCoins && !rastaManActive)
+        {
+            RastaManAppears();
+        }
+    }
+
     public void IncreaseCoins(int amount)
     {
         currentCoins += amount;
-        coinText.text =  "COINS: " + currentCoins.ToString();
+        if (currentCoins < 0)
+        {
+            currentCoins = 0;
+        }
+        UpdateCoinText();
     }
 
     public void DecreaseCoins(int amount)
     {
         currentCoins -= amount;
-        coinText.text = "COINS: " + currentCoins.ToString();
+        if (currentCoins < 0)
+        {
+            currentCoins = 0;
+        }
+        UpdateCoinText();
     }
 
-}
+    private void UpdateCoinText()
+    {
+        if (coinText != null)
+        {
+            coinText.text = $"COINS: {currentCoins} / {maxCoins}";
+        }
+    }
 
+    private void RastaManAppears()
+    {
+        rastaManActive = true;
+        Debug.Log("RastaMan Activated");
+    
+    }
+}

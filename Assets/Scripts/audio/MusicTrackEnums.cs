@@ -10,6 +10,7 @@ public class MusicTrackEnums
         MainMenu1,
         MainMenu2,
         Gameplay1,
-        Gameplay2
+        Gameplay2,
+        Narration
     }
 }

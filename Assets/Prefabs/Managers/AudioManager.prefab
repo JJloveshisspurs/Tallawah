@@ -241,7 +241,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -640,6 +640,9 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d9eab4166d64c48839bc9250f7e70e5b, type: 3}
     custom_Volume: 0
     musicTrackSelection: 3
+  - audioClip: {fileID: 8300000, guid: d316f4ec1dea848e1ac5a44a5c40bd86, type: 3}
+    custom_Volume: 0
+    musicTrackSelection: 4
   SFX_Items:
   - audioClip: {fileID: 8300000, guid: 58bf2f5a25e0a451388a96989350a745, type: 3}
     custom_Volume: 0
@@ -650,9 +653,39 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d7ed3189e4b5b459ab51cccb3d9e12bc, type: 3}
     custom_Volume: 0
     SFX_TrackSelection: 11
-  - audioClip: {fileID: 0}
+  - audioClip: {fileID: 8300000, guid: 7e38249955abc4fad8ab6facb2c4bbd5, type: 3}
     custom_Volume: 0
-    SFX_TrackSelection: 0
+    SFX_TrackSelection: 4
+  - audioClip: {fileID: 8300000, guid: 4c2b22b5f5ed04211aca3baaa00a8198, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 5
+  - audioClip: {fileID: 8300000, guid: c3b7339a1b6ce4ea9b0c5f031a703e22, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 6
+  - audioClip: {fileID: 8300000, guid: 6ede992b7392e42fd843957932643188, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 7
+  - audioClip: {fileID: 8300000, guid: 7f9b1af1851a0430ea63537177a73c41, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 8
+  - audioClip: {fileID: 8300000, guid: 0036c1f07949f440d9e014ebb24796a7, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 9
+  - audioClip: {fileID: 8300000, guid: 1f20d228b906b4916a75ccfd346b2738, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 10
+  - audioClip: {fileID: 8300000, guid: eb92ca1b9819b41a581f25e80044d198, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 11
+  - audioClip: {fileID: 8300000, guid: 5dac34c1f53c24b818f3c4ce4a79e34e, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 12
+  - audioClip: {fileID: 8300000, guid: a6e6ab4d0d9b94390b0e40278bb1061a, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 13
+  - audioClip: {fileID: 8300000, guid: d9cae2b2ef2a348dfac338707e2329e6, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 14
   music_Source: {fileID: 955134073427880750}
   SFX_Sources:
   - {fileID: 7996073663380552212}
