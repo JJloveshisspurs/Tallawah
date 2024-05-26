@@ -148,6 +148,8 @@ MonoBehaviour:
   speed: 0
   rb: {fileID: 0}
   attack: 0
+  limitTime: 1
+  theTime: 0.2
 --- !u!50 &2083985011215846447
 Rigidbody2D:
   serializedVersion: 4
