@@ -41,7 +41,9 @@ public class StickWeapon : WeaponLoadout
 
         if(ready)
         {
-            Instantiate(hitBox, spawnPos.position, Quaternion.identity);
+            GameObject bull = Instantiate(hitBox, spawnPos.position, Quaternion.identity) as GameObject;
+            int addp = parent.GetComponent<InteractionButtonScript>().additionalPower;
+            bull.GetComponent<ProjectileScript>().attack = power + addp;
             ready = false;
             //StartCoroutine(reset());
             reset();
