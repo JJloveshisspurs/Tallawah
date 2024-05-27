@@ -514,7 +514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6c9f4de11334353a03a70e9e38939e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSelection: 0
+  musicSelection: 5
 --- !u!4 &414136220
 Transform:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class MusicTrackEnums
         MainMenu2,
         Gameplay1,
         Gameplay2,
-        Narration
+        Narration,
+        Credits
     }
 }
