@@ -15,7 +15,7 @@ public class SceneMusicPlayer : MonoBehaviour
 
    public void PlayMusicOnSceneStart()
     {
-
+        if(AudioManager.instance != null)
         AudioManager.instance.PlayMusic(musicSelection);
 
     }
