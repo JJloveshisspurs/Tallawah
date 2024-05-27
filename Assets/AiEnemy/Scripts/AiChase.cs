@@ -6,11 +6,12 @@ public class AiChase : MonoBehaviour
 {
     public GameObject player;
     public float speed;
+    public float lastXposition;
+    public SpriteRenderer chickenSpriteRenderer;
 
     private float distance;
-
-    public SpriteAnimator walking_Animation;
-    public SpriteAnimator running_Animation;
+    public float chickenUpdateTimer;
+    public float chickenUpdateTimeInterval = .5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,34 +21,43 @@ public class AiChase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        
+       
+            if (player.transform.position.x < this.gameObject.transform.position.x)
+            {
+                chickenSpriteRenderer.flipX = true;
+                Debug.Log("Moving Left");
+            }
+            else
+            {
+                chickenSpriteRenderer.flipX = false;
+                Debug.Log("Moving Right");
+            }
 
         
+
+        
+
+        distance = Vector2.Distance(transform.position, player.transform.position);
+
+        Vector2 direction = player.transform.position - transform.position;
+       /* rotation on follow 
+        direction.Normalize();
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;*/
+
+
+        lastXposition = player.transform.position.x;
         
         if (distance < 4)
         {
             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(Vector3.forward * angle);
-
-            if (running_Animation.enabled == false)
-            {
-                walking_Animation.enabled = false;
-                running_Animation.enabled = true;
-            }
-            
+            //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
         }
-        else
-        {
+        
 
-            if (walking_Animation.enabled == false)
-            {
-                walking_Animation.enabled = true;
-                running_Animation.enabled = false;
-            }
 
-        }
+       
     }
+
+    
 }

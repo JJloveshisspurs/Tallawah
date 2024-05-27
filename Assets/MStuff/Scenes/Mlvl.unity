@@ -4010,10 +4010,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 910271288}
     - target: {fileID: 4592674180287274620, guid: c632bab84675b7149a2a7afcefc13e36, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592674180287274620, guid: c632bab84675b7149a2a7afcefc13e36, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.969
       objectReference: {fileID: 0}
@@ -15901,10 +15897,6 @@ PrefabInstance:
     - target: {fileID: 6127150247376398916, guid: 510d49a57bcda4d4a9c4cad88d703ff4, type: 3}
       propertyPath: m_Name
       value: Chicken1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6750871683977873607, guid: 510d49a57bcda4d4a9c4cad88d703ff4, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6750871683977873607, guid: 510d49a57bcda4d4a9c4cad88d703ff4, type: 3}
       propertyPath: m_LocalPosition.x

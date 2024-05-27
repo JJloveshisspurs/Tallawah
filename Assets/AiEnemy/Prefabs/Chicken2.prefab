@@ -29,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168884652045336063}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.01, y: 0.87, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2954225167643867718
 SpriteRenderer:
@@ -103,8 +103,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   speed: 3.5
-  walking_Animation: {fileID: 7058296411952498449}
-  running_Animation: {fileID: -4718454682402998292}
+  lastXposition: 0
+  chickenSpriteRenderer: {fileID: 2954225167643867718}
+  chickenUpdateTimer: 0
+  chickenUpdateTimeInterval: 0.5
 --- !u!61 &4503973714903770599
 BoxCollider2D:
   m_ObjectHideFlags: 0
