@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MStuff/Scenes/Mlvl.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Narrative_End.unity
+    guid: 7a8b1fdbc23e344a082483b18c681afb
   m_configObjects: {}
