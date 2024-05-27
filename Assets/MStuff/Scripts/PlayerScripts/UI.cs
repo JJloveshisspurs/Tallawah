@@ -12,6 +12,7 @@ public class UI : MonoBehaviour
     public TextMeshProUGUI lifeText;
     public TextMeshProUGUI keyText;
     public Image imageUI;
+    public Slider WeaponSlide;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,8 +24,11 @@ public class UI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lifeText.text = "Money: " + pms.currency.ToString();
+       // Debug.Log("uuuuu");
+        lifeText.text =  pms.currency.ToString();
         keyText.text = "Keys: " + Is.keys.ToString();
         imageUI.sprite = ibs.wepn.image;
+        WeaponSlide.maxValue = ibs.wepn.coolDown;
+        WeaponSlide.value = ibs.waitTimeCounter;
     }
 }

@@ -13,12 +13,25 @@ public class InteractionButtonScript : MonoBehaviour
     public Transform right;
 
     public int additionalPower = 0;
-    
+
+    public bool ready = true;
+    public float waitTimeCounter = 0.0f;
     private void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if(Input.GetKeyDown("space")&&ready)
         {
             wepn.useWeapon(this.gameObject);
+            waitTimeCounter = 0.0f;
+            ready = false;
+        }
+
+        if(!ready)
+        {
+            waitTimeCounter += Time.deltaTime;
+            if(waitTimeCounter >= wepn.coolDown)
+            {
+                ready = true;
+            }
         }
     }
 }

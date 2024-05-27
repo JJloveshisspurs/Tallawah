@@ -11,6 +11,8 @@ public class WeaponLoadout : ScriptableObject
     public int ammo = 0;
     public Sprite image;
     public int power = 1;
+
+    public float coolDown = 1.0f;
     public virtual void useWeapon(GameObject parent)
     {
 

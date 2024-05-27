@@ -15,8 +15,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   limitUse: 0
   ammo: 0
-  image: {fileID: 21300000, guid: 5a48f8774dd2ee04faccc145253622f4, type: 3}
+  image: {fileID: 21300000, guid: ef9f0836311014b2aa0c2e57f07e202b, type: 3}
   power: 1
+  coolDown: 0.2
   ready: 1
   hitBox: {fileID: 2667594128734531454, guid: 45c02d8c5de8fc5468fa9b7234db15e0, type: 3}
   movement: {fileID: 0}

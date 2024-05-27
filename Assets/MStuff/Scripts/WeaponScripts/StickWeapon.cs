@@ -9,6 +9,7 @@ public class StickWeapon : WeaponLoadout
     public TopDownMovement movement;    
     public InteractionButtonScript interaction;
     private string dir;
+    private Quaternion rot;
     public override void useWeapon(GameObject parent)
     {
         Transform spawnPos;
@@ -19,18 +20,23 @@ public class StickWeapon : WeaponLoadout
         {
             case "up":
                 spawnPos = interaction.up;
+                rot = Quaternion.Euler(0, 0, 0);
                 dir = "up";
+
                 break;
             case "down":
                 spawnPos = interaction.down;
                 dir = "down";
+                rot = Quaternion.Euler(0, 0, 0);
                 break;
             case "left":
                 spawnPos = interaction.left;
+                rot = Quaternion.Euler(0, 0, 90);
                 dir = "left";
                 break; 
             case "right":
                 spawnPos = interaction.right;
+                rot = Quaternion.Euler(0, 0, 90);
                 dir = "right";
                 break;
             default: 
@@ -41,7 +47,7 @@ public class StickWeapon : WeaponLoadout
 
         if(ready)
         {
-            GameObject bull = Instantiate(hitBox, spawnPos.position, Quaternion.identity) as GameObject;
+            GameObject bull = Instantiate(hitBox, spawnPos.position, rot) as GameObject;
             int addp = parent.GetComponent<InteractionButtonScript>().additionalPower;
             bull.GetComponent<ProjectileScript>().attack = power + addp;
             ready = false;
