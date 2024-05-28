@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb241c2cab7d5114480f8214b1a83b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irratationlvl: 10
+  irratationlvl: 1
   speed: 5
   rb: {fileID: 0}
   disturb: 0
@@ -280,6 +280,8 @@ MonoBehaviour:
   anim: {fileID: 0}
   moneyPickup: {fileID: 51337362368620888, guid: 895c4853f5628154ab3ade1911061d78, type: 3}
   currDir: 2
+  popupDamagePrefab: {fileID: 3752500010376832824, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
+  popUptext: {fileID: 6205391407663992211, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
 --- !u!50 &4208187317124433838
 Rigidbody2D:
   serializedVersion: 4
