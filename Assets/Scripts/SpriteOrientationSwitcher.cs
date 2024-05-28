@@ -35,7 +35,9 @@ public class SpriteOrientationSwitcher : MonoBehaviour
     public void UpdateSpriteOrientation()
     {
         lastdirection = movementController.lastButton;
-        
+
+        if(mainPlayerSprite.enabled)
+            mainPlayerSprite.enabled = false;
 
         if (movementController.lastButton == "left" ) {
             sprite_Left.enabled = true;
