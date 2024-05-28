@@ -13,6 +13,7 @@ public class WeaponLoadout : ScriptableObject
     public int power = 1;
 
     public float coolDown = 1.0f;
+    public AudioClip sound;
     public virtual void useWeapon(GameObject parent)
     {
 
