@@ -326,7 +326,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &646265981
 GameObject:
@@ -529,7 +529,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039370011
 GameObject:
@@ -940,6 +940,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5207740915737185841, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207740915737185841, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03999996
       objectReference: {fileID: 0}
@@ -982,6 +986,22 @@ PrefabInstance:
     - target: {fileID: 5662661531640391637, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716492050405084378, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Color.a
+      value: 0.9647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716492050405084378, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21253115
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716492050405084378, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.21253115
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716492050405084378, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2264151
       objectReference: {fileID: 0}
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: textRenderer
