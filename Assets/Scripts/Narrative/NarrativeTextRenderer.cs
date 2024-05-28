@@ -125,6 +125,7 @@ public class NarrativeTextRenderer : MonoBehaviour
         StopAllCoroutines();
         nextButton.SetActive(false);
 
+       
         if (dialogueblockTextIndex >= dialogue.Count)
         {
 
@@ -132,7 +133,7 @@ public class NarrativeTextRenderer : MonoBehaviour
         }
         else
         {
-            //AudioManager.instance.PlaySFX(dialogue[dialogueblockTextIndex].soundEffectSelection);
+            AudioManager.instance.PlaySFX(dialogue[dialogueblockTextIndex].soundEffectSelection);
             StartCoroutine(IterateThroughText());
         }
     }

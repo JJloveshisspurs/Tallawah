@@ -774,7 +774,7 @@ MonoBehaviour:
   textField_CharacterName: {fileID: 98079276}
   textField_Dialogue: {fileID: 1218875731}
   dialogue: []
-  textPrintRate: 0.04
+  textPrintRate: 0.03
   pauseBetweenDialogUpdates: 20000
   narrativeController: {fileID: 6097630697884834328}
   dialogueblockTextIndex: 0
@@ -887,7 +887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 624224287852919725, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[2].soundEffectSelection
-      value: 18
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 624224287852919725, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[4].soundEffectSelection
@@ -980,6 +980,10 @@ PrefabInstance:
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[0].soundEffectSelection
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: dialogue.Array.data[1].soundEffectSelection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7093121119051174524, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_Sprite

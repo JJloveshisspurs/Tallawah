@@ -65,7 +65,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(SFXTrackEnums.SFX pSFXTracks)
     {
-        Debug.Log("Plaaying Sound Effect:" + pSFXTracks.ToString());
+        
         AudioClip selectedAudioClip = null;
         AudioSource selectedAudioSource;
 
@@ -81,9 +81,12 @@ public class AudioManager : MonoBehaviour
 
         }
 
-        selectedAudioSource = GetNextEmptySFX_AudioSurce();
-       
-        selectedAudioSource.PlayOneShot(selectedAudioClip);
+        if (selectedAudioClip != null)
+        {
+            selectedAudioSource = GetNextEmptySFX_AudioSurce();
+            Debug.Log("Playing Sound Effect:" + selectedAudioClip.name.ToString());
+            selectedAudioSource.PlayOneShot(selectedAudioClip);
+        }
 
 
     }
