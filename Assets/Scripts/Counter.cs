@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class Counter : MonoBehaviour
@@ -8,6 +9,7 @@ public class Counter : MonoBehaviour
     public static Counter instance;
     public TMP_Text coinText;
     public Sprite[] imagesList;
+    public Image image;
     public int currentCoins = 0;
     public int maxCoins;
     private bool rastaManActive = false;
@@ -29,12 +31,15 @@ public class Counter : MonoBehaviour
     void Start()
     {
         UpdateCoinText();
+        // Change the sprite of the GameObject to the sprite at the specified index.
+        ChangeCoinImage(currentCoins);
     }
 
     void Update()
     {
         if (currentCoins >= maxCoins && !rastaManActive)
         {
+       
             RastaManAppears();
         }
     }
@@ -42,11 +47,14 @@ public class Counter : MonoBehaviour
     public void IncreaseCoins(int amount)
     {
         currentCoins += amount;
+        
         if (currentCoins < 0)
         {
             currentCoins = 0;
         }
+
         UpdateCoinText();
+        ChangeCoinImage(currentCoins);
     }
 
     public void DecreaseCoins(int amount)
@@ -67,16 +75,14 @@ public class Counter : MonoBehaviour
         }
     }
 
-    private void UpdateCoinImage()
+   
+   public void ChangeCoinImage(int index)
     {
-    
-        if (currentCoins >= maxCoins)
-        {
-            int nextImageIndex = (currentCoins - maxCoins) % imagesList.Length;
-            GetComponent<SpriteRenderer>().sprite = imagesList[nextImageIndex];
-        }
-      
+       image.sprite = imagesList[index];
+
     }
+
+
 
 
     private void RastaManAppears()
