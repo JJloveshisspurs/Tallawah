@@ -99,7 +99,10 @@ public class TopDownMovement : MonoBehaviour
 
                 rb.velocity = new Vector2(rb.velocity.x, 0);
 
-            }
+            if(rb.velocity.x == 0f && rb.velocity.y == 0f )
+                lastButton = "none";
+
+        }
         
 
     }
