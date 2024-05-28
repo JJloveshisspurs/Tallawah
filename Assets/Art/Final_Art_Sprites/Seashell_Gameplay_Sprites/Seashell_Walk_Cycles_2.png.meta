@@ -1,0 +1,1249 @@
+fileFormatVersion: 2
+guid: bb56115d3c59448deb5b8b4ea13a5503
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 2020, y: 2473, z: 93, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_0
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2465
+        width: 296
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488dcfad3ae1f4bf4bd127b7e9a3136b
+      internalID: 1189282445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2465
+        width: 296
+        height: 835
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94de5a17b6f44f1904777e4bc8b0f1
+      internalID: -1236840612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2515
+        width: 249
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de91d2c3c21604481b351a7e36e38995
+      internalID: 1181982067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_3
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 2515
+        width: 249
+        height: 639
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f0b8858a8694bd3ac67007bf5c919d
+      internalID: -1344297035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Idle
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2513
+        width: 216
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f34119c0ab9a49d49a8234414a3b135
+      internalID: 1056622493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_5
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 973
+        width: 355
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3dc589a83cd40c6a3ab5f97a9852df
+      internalID: -407425559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_6
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 976
+        width: 433
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9448ef35052d64570aba71cf9e6fa241
+      internalID: 1290234724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1204
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9087d87320b24094996a38bb8d46afb
+      internalID: 1732378490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_8
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 940
+        width: 290
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a173130a379514f4a8d3f19499bad419
+      internalID: 1573970274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_9
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 1146
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7390887cc291b4da685ce3c36468eba5
+      internalID: -561589281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_10
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1113
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251f93818b4384b06965a9f78079c849
+      internalID: 1052665284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_11
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1104
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9733ca7a38374509b82d131d8489375
+      internalID: 518131254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1063
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cf5ccc4bc5b4a9fa1a523e61afc1dc
+      internalID: 1331961753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_13
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1054
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683f9de64fcda483bb6e47af65ac1284
+      internalID: -6573981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1046
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8615b6d19df22448ab45c61416ff8c5d
+      internalID: -993686566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 989
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75581d8bf98e54881b45856a34ca25d6
+      internalID: -31788654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 973
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84aaf3863b7144119e92c1b3274c434
+      internalID: -2005343033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_17
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 986
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94889fd9bddd479daa9073fe61b6959
+      internalID: 1197426535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 975
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fe9030f5423449c9291fbc581959b5
+      internalID: -1374906842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 978
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6fe423dd1ea453baae5b9627bd7c03
+      internalID: -1999632133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_20
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 940
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94717047db3c24abcba8ddae34dea4c6
+      internalID: -497711097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 956
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d8cef022194009a8324017994ec9e
+      internalID: 1421186011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 942
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c5b237f841e4a77b4795e5474a83c8
+      internalID: 733952833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 921
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ae8b97977d84139b2601de0204169d
+      internalID: 1671682621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_24
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 925
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e708944ed8f3f4920bc3e2ab57059413
+      internalID: 1317363110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_25
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 921
+        width: 53
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e7d83918f394f9881ccaa829f55206
+      internalID: -1161674392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_26
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 925
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c0bc0b6fa104ac2aa41f990517dd1b
+      internalID: 1654706968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_27
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 15
+        width: 289
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443b8dd4b8a2440e7bc2d4bf9c615338
+      internalID: 466299453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 279
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f998c38c521f40e8b7becb236aadcfb
+      internalID: 409611789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_29
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 51
+        width: 433
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723db9a2e4d4c4493a28530095725e5b
+      internalID: 2112533299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_30
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 48
+        width: 354
+        height: 681
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225856cc2e6c94782b335a6dbb4db112
+      internalID: -51797511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_31
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 242
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b0eab98bb2c415f9f8f42423855b7c
+      internalID: -2093495795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_32
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 221
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67fa436085a4d369c7761b23bdd272
+      internalID: 643881381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_33
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 189
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990f3f52361b043fc979c79f86c6ff48
+      internalID: 1213624738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 179
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc2bac9bc1034400ad9384cd1beca7b
+      internalID: -620144797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_35
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 129
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948f7cfb31d64b448d8158a93b888d7
+      internalID: 1888577385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_36
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 137
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4d3252eb0d4e40a51ae46b8151cc5
+      internalID: -238252163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_37
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 119
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63be378c94caf405396d9de46b05dcfc
+      internalID: -968818162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 61
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6a5e125e508453caf73070ed611551
+      internalID: -1093753538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_39
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 48
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1c8bba6d6c44d0691d807a0c5de119
+      internalID: -1063380228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_40
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 64
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd550d3c3d2cb4ce192fb1c092640694
+      internalID: 1602258430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_41
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 50
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7a05a0037ef4fdbb0fc04c71b3aea0
+      internalID: 377583847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_42
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 53
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62c0cee82df74264b397cb66a04d1eb
+      internalID: -1418728042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_43
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 50
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d9871e7593b41d8b5ad0f5115d977d
+      internalID: -793962594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_44
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 31
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d0339491b1d4e258adb3c121fa93b0
+      internalID: 180045543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_45
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 15
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fd3f760853349ba960b9945dbbf475
+      internalID: -1409164847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_46
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14ebd2d0df2f421686bcbaa5a2ec530
+      internalID: 1156285394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_47
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2116fd74e6e14ea8b3f5264cc8d0c2a
+      internalID: 1564522951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0850376436042b9b1ba965d665b350
+      internalID: -1808102063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_49
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3480b5d09a64c44941a92fe8592dcc
+      internalID: -125179478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Walk_Cycles_2_50
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ba7ca95bc684b82968bb09ff79c00e
+      internalID: -635645317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Seashell_Idle: 1056622493
+      Seashell_Walk_Cycles_2_0: 1189282445
+      Seashell_Walk_Cycles_2_1: -1236840612
+      Seashell_Walk_Cycles_2_10: 1052665284
+      Seashell_Walk_Cycles_2_11: 518131254
+      Seashell_Walk_Cycles_2_12: 1331961753
+      Seashell_Walk_Cycles_2_13: -6573981
+      Seashell_Walk_Cycles_2_14: -993686566
+      Seashell_Walk_Cycles_2_15: -31788654
+      Seashell_Walk_Cycles_2_16: -2005343033
+      Seashell_Walk_Cycles_2_17: 1197426535
+      Seashell_Walk_Cycles_2_18: -1374906842
+      Seashell_Walk_Cycles_2_19: -1999632133
+      Seashell_Walk_Cycles_2_2: 1181982067
+      Seashell_Walk_Cycles_2_20: -497711097
+      Seashell_Walk_Cycles_2_21: 1421186011
+      Seashell_Walk_Cycles_2_22: 733952833
+      Seashell_Walk_Cycles_2_23: 1671682621
+      Seashell_Walk_Cycles_2_24: 1317363110
+      Seashell_Walk_Cycles_2_25: -1161674392
+      Seashell_Walk_Cycles_2_26: 1654706968
+      Seashell_Walk_Cycles_2_27: 466299453
+      Seashell_Walk_Cycles_2_28: 409611789
+      Seashell_Walk_Cycles_2_29: 2112533299
+      Seashell_Walk_Cycles_2_3: -1344297035
+      Seashell_Walk_Cycles_2_30: -51797511
+      Seashell_Walk_Cycles_2_31: -2093495795
+      Seashell_Walk_Cycles_2_32: 643881381
+      Seashell_Walk_Cycles_2_33: 1213624738
+      Seashell_Walk_Cycles_2_34: -620144797
+      Seashell_Walk_Cycles_2_35: 1888577385
+      Seashell_Walk_Cycles_2_36: -238252163
+      Seashell_Walk_Cycles_2_37: -968818162
+      Seashell_Walk_Cycles_2_38: -1093753538
+      Seashell_Walk_Cycles_2_39: -1063380228
+      Seashell_Walk_Cycles_2_40: 1602258430
+      Seashell_Walk_Cycles_2_41: 377583847
+      Seashell_Walk_Cycles_2_42: -1418728042
+      Seashell_Walk_Cycles_2_43: -793962594
+      Seashell_Walk_Cycles_2_44: 180045543
+      Seashell_Walk_Cycles_2_45: -1409164847
+      Seashell_Walk_Cycles_2_46: 1156285394
+      Seashell_Walk_Cycles_2_47: 1564522951
+      Seashell_Walk_Cycles_2_48: -1808102063
+      Seashell_Walk_Cycles_2_49: -125179478
+      Seashell_Walk_Cycles_2_5: -407425559
+      Seashell_Walk_Cycles_2_50: -635645317
+      Seashell_Walk_Cycles_2_6: 1290234724
+      Seashell_Walk_Cycles_2_7: 1732378490
+      Seashell_Walk_Cycles_2_8: 1573970274
+      Seashell_Walk_Cycles_2_9: -561589281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

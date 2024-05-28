@@ -101,7 +101,7 @@ MonoBehaviour:
   images:
   - {fileID: 565154501, guid: d79de3741c139459bb20a6302759d51e, type: 3}
   - {fileID: -1316717831, guid: d79de3741c139459bb20a6302759d51e, type: 3}
-  animationSpeed: 0.25
+  animationSpeed: 0.125
   currentFrameIndex: 0
 --- !u!1 &6000115020031032361
 GameObject:

@@ -26,12 +26,12 @@ public class AiChase : MonoBehaviour
             if (player.transform.position.x < this.gameObject.transform.position.x)
             {
                 chickenSpriteRenderer.flipX = true;
-                Debug.Log("Moving Left");
+                //Debug.Log("Moving Left");
             }
             else
             {
                 chickenSpriteRenderer.flipX = false;
-                Debug.Log("Moving Right");
+                //Debug.Log("Moving Right");
             }
 
         
