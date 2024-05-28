@@ -19363,7 +19363,98 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 910271319}
+    - targetCorrespondingSourceObject: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3373011367782838334}
+    - targetCorrespondingSourceObject: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3373011367782838333}
+    - targetCorrespondingSourceObject: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3373011367782838332}
+    - targetCorrespondingSourceObject: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3373011367782838331}
   m_SourcePrefab: {fileID: 100100000, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+--- !u!212 &3373011367782838330 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2857521035944081693, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+  m_PrefabInstance: {fileID: 3373011367782838329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3373011367782838331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910271288}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 3373011367782838330}
+  images:
+  - {fileID: 202228144, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: -885827667, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: -778002186, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  animationSpeed: 0.25
+  currentFrameIndex: 0
+--- !u!114 &3373011367782838332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910271288}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 3373011367782838330}
+  images:
+  - {fileID: -1984264649, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: 1875362079, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: 1870673408, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  animationSpeed: 0.25
+  currentFrameIndex: 0
+--- !u!114 &3373011367782838333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910271288}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 3373011367782838330}
+  images:
+  - {fileID: 462652081, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: 769904591, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  animationSpeed: 0.25
+  currentFrameIndex: 0
+--- !u!114 &3373011367782838334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910271288}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSprite: {fileID: 3373011367782838330}
+  images:
+  - {fileID: -151281445, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  - {fileID: 2029028276, guid: 5abee05f5cd7b459ea5b597501ce6b45, type: 3}
+  animationSpeed: 0.25
+  currentFrameIndex: 0
 --- !u!4 &3603907879250432857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 909690481977809459, guid: 931364bccde9c224385aa1d282e454e9, type: 3}
