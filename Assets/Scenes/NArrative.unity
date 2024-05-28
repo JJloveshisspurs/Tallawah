@@ -894,6 +894,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 624224287852919725, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: dialogue.Array.data[6].soundEffectSelection
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 624224287852919725, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[8].soundEffectSelection
       value: 15
       objectReference: {fileID: 0}
@@ -987,7 +991,7 @@ PrefabInstance:
       objectReference: {fileID: 1662088641}
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[0].soundEffectSelection
-      value: 0
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[1].soundEffectSelection
