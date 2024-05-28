@@ -710,7 +710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1686421616, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275315779}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -5306,6 +5306,7 @@ GameObject:
   - component: {fileID: 516311206}
   - component: {fileID: 516311205}
   - component: {fileID: 516311204}
+  - component: {fileID: 516311208}
   m_Layer: 5
   m_Name: UICanvas
   m_TagString: Untagged
@@ -5398,6 +5399,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &516311208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516311203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bf61f19edd774429a5d014ededfa8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinText: {fileID: 1489918275}
+  imagesList:
+  - {fileID: 1686421616, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: -1363732724, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: 903868536, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: 412321217, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: 145660959, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: -1782034124, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: -112612490, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  - {fileID: 1338658720, guid: 0371fdb30c614ac41a3d329709fe0a34, type: 3}
+  image: {fileID: 33358077}
+  currentCoins: 0
+  maxCoins: 7
 --- !u!1 &535932718
 GameObject:
   m_ObjectHideFlags: 0
@@ -5536,7 +5562,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535932718}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -6789,7 +6815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 450}
+  m_AnchoredPosition: {x: 20, y: 450}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751997178
@@ -10240,7 +10266,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219287196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -10914,7 +10940,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276851140}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -11195,7 +11221,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340396448}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -17678,7 +17704,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986070179}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -18081,7 +18107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017431962}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43cf2c089d6f7af47b17f4d23fe6b2f2, type: 3}
   m_Name: 
@@ -19629,6 +19655,10 @@ PrefabInstance:
       propertyPath: assistImage
       value: 
       objectReference: {fileID: 1944196614}
+    - target: {fileID: 4870742312641154373, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      propertyPath: trash
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4905491721475420985, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.81

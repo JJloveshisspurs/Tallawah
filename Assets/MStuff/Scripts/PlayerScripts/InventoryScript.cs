@@ -31,6 +31,7 @@ public class InventoryScript : MonoBehaviour
         }
     }
 
+
     public void GetWepnFunction()
     {
         maxpos++;

@@ -14,13 +14,17 @@ public class TrashPickup : MonoBehaviour
     void Update()
     {
         
+
     }
+
+    
 
     void OnTriggerEnter2D(Collider2D obj)
     {
         if(obj.gameObject.tag == "Player")
         {
             obj.gameObject.GetComponent<InventoryScript>().trash += 1;
+            Counter.instance.IncreaseCoins(1);
             Destroy(gameObject);
         }
     }
