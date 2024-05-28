@@ -11,11 +11,13 @@ public class UI : MonoBehaviour
     public InteractionButtonScript ibs;
     public TextMeshProUGUI lifeText;
     public TextMeshProUGUI keyText;
+    public TextMeshProUGUI trashText;
     public Image imageUI;
     public Slider WeaponSlide;
     // Start is called before the first frame update
     void Start()
     {
+        trashText.text = Is.trash.ToString() +"/7";
         lifeText.text = "Money: " + pms.currency.ToString();
         keyText.text = "Keys: " + Is.keys.ToString();
         imageUI.sprite = ibs.wepn.image;
@@ -30,5 +32,6 @@ public class UI : MonoBehaviour
         imageUI.sprite = ibs.wepn.image;
         WeaponSlide.maxValue = ibs.wepn.coolDown;
         WeaponSlide.value = ibs.waitTimeCounter;
+        trashText.text = Is.trash.ToString() +"/7";
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class InventoryScript : MonoBehaviour
 {
     public int keys = 0;
+    public int trash = 0;
     public WeaponLoadout[] loadout;
     public int pos = 0;
     public int maxpos = 1;

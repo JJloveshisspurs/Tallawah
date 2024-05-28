@@ -17,7 +17,7 @@ MonoBehaviour:
   ammo: 0
   image: {fileID: 1422369201, guid: be710163e9201214d80538a74b955adf, type: 3}
   power: 1
-  coolDown: 0.5
+  coolDown: 1.51
   movement: {fileID: 0}
   interaction: {fileID: 0}
   bullet: {fileID: 8596196557668933060, guid: 53ba72390e4dccb43be9308bad2209fc, type: 3}
