@@ -25,6 +25,7 @@ public class SFXTrackEnums : MonoBehaviour
         StickImpact,
         RoosterCrow,
         CityNoises,
-        Dogbark
+        Dogbark,
+        tut
     }
 }

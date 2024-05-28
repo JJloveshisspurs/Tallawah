@@ -929,6 +929,14 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 4496228842480801652, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4496228842480801652, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
+      propertyPath: SFXSelection
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5207740915737185841, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03999996
@@ -979,7 +987,7 @@ PrefabInstance:
       objectReference: {fileID: 1662088641}
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[0].soundEffectSelection
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6594301270701368944, guid: aee82e50bd644405ba59d2989656f68a, type: 3}
       propertyPath: dialogue.Array.data[1].soundEffectSelection
