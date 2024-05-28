@@ -24,6 +24,7 @@ public class SFXTrackEnums : MonoBehaviour
         Water_Gun,
         StickImpact,
         RoosterCrow,
-        CityNoises
+        CityNoises,
+        Dogbark
     }
 }

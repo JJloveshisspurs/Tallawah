@@ -689,6 +689,9 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d9cae2b2ef2a348dfac338707e2329e6, type: 3}
     custom_Volume: 0
     SFX_TrackSelection: 14
+  - audioClip: {fileID: 8300000, guid: a6ecacdec78a441a3a9ce89871d553b5, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 1
   music_Source: {fileID: 955134073427880750}
   SFX_Sources:
   - {fileID: 7996073663380552212}
