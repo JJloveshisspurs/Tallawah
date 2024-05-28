@@ -7,6 +7,7 @@ public class Counter : MonoBehaviour
 {
     public static Counter instance;
     public TMP_Text coinText;
+    public Sprite[] imagesList;
     public int currentCoins = 0;
     public int maxCoins;
     private bool rastaManActive = false;
@@ -65,6 +66,18 @@ public class Counter : MonoBehaviour
             coinText.text = $"COINS: {currentCoins} / {maxCoins}";
         }
     }
+
+    private void UpdateCoinImage()
+    {
+    
+        if (currentCoins >= maxCoins)
+        {
+            int nextImageIndex = (currentCoins - maxCoins) % imagesList.Length;
+            GetComponent<SpriteRenderer>().sprite = imagesList[nextImageIndex];
+        }
+      
+    }
+
 
     private void RastaManAppears()
     {
