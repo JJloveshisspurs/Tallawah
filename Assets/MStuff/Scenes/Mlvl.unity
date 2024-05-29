@@ -19050,7 +19050,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2099177082
 MonoBehaviour:
@@ -19623,6 +19623,10 @@ PrefabInstance:
       propertyPath: currency
       value: 2000
       objectReference: {fileID: 0}
+    - target: {fileID: 847866773317826253, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1440958465583811210, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: near clip plane
       value: -22.65
@@ -19657,7 +19661,7 @@ PrefabInstance:
       objectReference: {fileID: 1944196614}
     - target: {fileID: 4870742312641154373, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: trash
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4905491721475420985, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19701,7 +19705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5184274231825873569, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.6
+      value: -9.85
       objectReference: {fileID: 0}
     - target: {fileID: 5657448162285540260, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_Name
@@ -19717,15 +19721,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295023635871373770, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.5
+      value: 9.99
       objectReference: {fileID: 0}
     - target: {fileID: 7955277696316828069, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.9
+      value: 8.03
       objectReference: {fileID: 0}
     - target: {fileID: 8667196382809794148, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693700847171052432, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8721087477611390554, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_Size.x
@@ -19745,7 +19753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9114234357789089264, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -5.98
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

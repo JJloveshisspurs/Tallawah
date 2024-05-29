@@ -15,13 +15,20 @@ public class InteractionButtonScript : MonoBehaviour
     public int additionalPower = 0;
 
     public bool ready = true;
+    public AudioSource audioC;
     public float waitTimeCounter = 0.0f;
+
+    void Start()
+    {
+        audioC = GetComponent<AudioSource>();
+    }
     private void Update()
     {
         if(Input.GetKeyDown("space")&&ready)
         {
             wepn.useWeapon(this.gameObject);
             waitTimeCounter = 0.0f;
+            playSound();
             ready = false;
         }
 
@@ -33,5 +40,11 @@ public class InteractionButtonScript : MonoBehaviour
                 ready = true;
             }
         }
+    }
+
+    public void playSound()
+    {
+        audioC.clip = wepn.sound;
+        audioC.Play();
     }
 }
