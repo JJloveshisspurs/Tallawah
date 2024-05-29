@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DogEnemybehaviour : EnemyBehaviour
@@ -9,6 +10,10 @@ public class DogEnemybehaviour : EnemyBehaviour
 
     //The current direction they are going at
     public moveDir currDir;
+
+    public GameObject popupDamagePrefab;
+    public TMP_Text popUptext;
+
 
     
     public override void movement()
@@ -67,7 +72,9 @@ public class DogEnemybehaviour : EnemyBehaviour
     public void moneyChance()
     {
         GameObject money = Instantiate(moneyPickup, transform.position, transform.rotation) as GameObject;
+        popUptext.text = "50";
         money.GetComponent<MoneyPickupScript>().hold = 50.0f;
+        Instantiate(popupDamagePrefab, transform.position, Quaternion.identity);
     }
 
     IEnumerator reset(float t)
