@@ -58,12 +58,12 @@ public class NarrativeController : MonoBehaviour
     {
         for(int i = 0; i < narrativePages.Count; i++)
         {
-            if (NarrativePanelIndex < narrativePages.Count)
-                narrativePages[i].SetActive(false);
+
+            narrativePages[i].SetActive(false);
 
         }
 
-        if(NarrativePanelIndex < narrativePages.Count)
+
         narrativePages[NarrativePanelIndex].SetActive(true);
 
 

@@ -400,7 +400,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1517897645}
   - component: {fileID: 1517897646}
-  - component: {fileID: 1517897647}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -417,7 +416,7 @@ Transform:
   m_GameObject: {fileID: 1517897644}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.03999996, y: -0.06, z: 10}
-  m_LocalScale: {x: 3.0666327, y: 3.0666327, z: 3.0666327}
+  m_LocalScale: {x: 1.9880854, y: 1.9880854, z: 1.9880854}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 542629996}
@@ -464,7 +463,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 110732ef944b44615bb8e67b6adf969d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: edee7c77c8bf74729acc0604b7a7476d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -475,62 +474,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1517897647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517897644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentSprite: {fileID: 1517897646}
-  images:
-  - {fileID: 21300000, guid: 110732ef944b44615bb8e67b6adf969d, type: 3}
-  - {fileID: 21300000, guid: 077b8b0dcd6184eba834763b22de9510, type: 3}
-  - {fileID: 21300000, guid: 4e571efbbbb144a2ab0421987e8cee43, type: 3}
-  - {fileID: 21300000, guid: 5e1b07424764b466baa8fa880d15221b, type: 3}
-  - {fileID: 21300000, guid: acbad4bfa6986442b9631c5ee1dde308, type: 3}
-  - {fileID: 21300000, guid: ca02c71f86a484854a374fd198ddd4dc, type: 3}
-  - {fileID: 21300000, guid: ed63a3f6871244acb9f79196f4578cdb, type: 3}
-  - {fileID: 21300000, guid: e77ef3407086f4cdd91871e863860da5, type: 3}
-  - {fileID: 21300000, guid: fae36f91722cf4c1e88f88153742e4ce, type: 3}
-  - {fileID: 21300000, guid: ba8120fef01f3407c867b62f935d6d5c, type: 3}
-  - {fileID: 21300000, guid: c2da3d97d19a2463a9356937970277f3, type: 3}
-  - {fileID: 21300000, guid: 567ae4f2271704276a70ebf4e432f191, type: 3}
-  - {fileID: 21300000, guid: f1e700821b1b04a26afb5d6152476ca6, type: 3}
-  - {fileID: 21300000, guid: 7882ec8aab1db44adbadd616484a35bf, type: 3}
-  - {fileID: 21300000, guid: e8b5cc3fddd3047f395d00b8e34f8127, type: 3}
-  - {fileID: 21300000, guid: 51be617a6918a4f85a197838d3112155, type: 3}
-  - {fileID: 21300000, guid: c337bb8279090453188e97585777c1ef, type: 3}
-  - {fileID: 21300000, guid: fb98979799f034f8b862d4ae88f02742, type: 3}
-  - {fileID: 21300000, guid: 0a648a4632aa442a690590fa1728dfcf, type: 3}
-  - {fileID: 21300000, guid: 9cebd2516972d477eb71439de3a20f2d, type: 3}
-  - {fileID: 21300000, guid: 98f08838c523448f7b4d70db8a8425de, type: 3}
-  - {fileID: 21300000, guid: b8d3f4ddf07e3489090b6848db1e73cf, type: 3}
-  - {fileID: 21300000, guid: b2700e310faea48ac9cc41f0f9f5b38f, type: 3}
-  - {fileID: 21300000, guid: 39058b7dc77f84a0195c36e1363e050c, type: 3}
-  - {fileID: 21300000, guid: bd6db73b43ab84c64befeaa1885f35c7, type: 3}
-  - {fileID: 21300000, guid: 1c0f0cfb1281d48f5a2396fb91b1249a, type: 3}
-  - {fileID: 21300000, guid: de5013738a17a457298771018ba9d47d, type: 3}
-  - {fileID: 21300000, guid: 63fc3f55df6aa4683b9383357691a7ac, type: 3}
-  - {fileID: 21300000, guid: 25cd974f448a34395865e12a1b123844, type: 3}
-  - {fileID: 21300000, guid: bd204a3439e2d48c8a9c88e609dd708e, type: 3}
-  - {fileID: 21300000, guid: c4400d4dcb74c42c3ae59236a4bf7b56, type: 3}
-  - {fileID: 21300000, guid: 31060616a516e4e47965402c5ee42fd3, type: 3}
-  - {fileID: 21300000, guid: 461f380dd0ff4498e9abb67f3e03564a, type: 3}
-  - {fileID: 21300000, guid: 302b653139767457799b794de7430c12, type: 3}
-  - {fileID: 21300000, guid: 5256089095c444158ad3dcd73f43f30c, type: 3}
-  - {fileID: 21300000, guid: 1b110945ade5c4c509ee2e19b584f6ee, type: 3}
-  - {fileID: 21300000, guid: e7eace367de494af6823f1e64ced9a05, type: 3}
-  - {fileID: 21300000, guid: 45f5e06ec222c4173a53022604d8b449, type: 3}
-  - {fileID: 21300000, guid: 036f088e4bd2947a8b26816259cbd7b4, type: 3}
-  animationSpeed: 0.1
-  currentFrameIndex: 0
-  playOnStart: 1
 --- !u!1 &1700436801
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,7 +594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1954727482
 RectTransform:
   m_ObjectHideFlags: 0

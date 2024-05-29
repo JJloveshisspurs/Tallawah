@@ -7,5 +7,4 @@ public class NarrativeTextItem
 {
     public string characterName;
     public string dialogue;
-    public SFXTrackEnums.SFX soundEffectSelection;
 }

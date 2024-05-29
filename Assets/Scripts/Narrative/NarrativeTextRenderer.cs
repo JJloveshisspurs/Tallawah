@@ -20,7 +20,6 @@ public class NarrativeTextRenderer : MonoBehaviour
     public int characterLetterIndex;
 
     public bool testDialogueOnStart = false;
-    public GameObject nextButton;
 
     public void Start()
     {
@@ -54,7 +53,7 @@ public class NarrativeTextRenderer : MonoBehaviour
     {
         dialogueblockTextIndex = 0;
         dialogue = narrativetext;
-        
+
         StartCoroutine(IterateThroughText());
     }
 
@@ -95,7 +94,7 @@ public class NarrativeTextRenderer : MonoBehaviour
 
         if(textField_Dialogue.text.Length >= dialogue[dialogueblockTextIndex].dialogue.Length)
         {
-            nextButton.SetActive(true);
+
             StartCoroutine(PauseBetweenTextblocks());
 
         }
@@ -122,10 +121,7 @@ public class NarrativeTextRenderer : MonoBehaviour
     {
         dialogueblockTextIndex = dialogueblockTextIndex + 1;
         dialogueLetterIndex = 0;
-        StopAllCoroutines();
-        nextButton.SetActive(false);
 
-       
         if (dialogueblockTextIndex >= dialogue.Count)
         {
 
@@ -133,7 +129,6 @@ public class NarrativeTextRenderer : MonoBehaviour
         }
         else
         {
-            AudioManager.instance.PlaySFX(dialogue[dialogueblockTextIndex].soundEffectSelection);
             StartCoroutine(IterateThroughText());
         }
     }
