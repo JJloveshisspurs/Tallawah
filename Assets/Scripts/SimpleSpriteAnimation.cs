@@ -3,38 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 
-public class SimpleSpriteAnimation : MonoBehaviour
-{
-    public SpriteRenderer currentSprite;
+namespace Tallawah{
 
-    public List<Sprite> images;
-
-    public float animationSpeed = .25f;
-
-
-    public int currentFrameIndex = 0;
-    
-
-    public void Start()
+    public class SimpleSpriteAnimation : MonoBehaviour
     {
-        currentFrameIndex = 0;
-        currentSprite.sprite = images[currentFrameIndex];
+        public SpriteRenderer currentSprite;
 
-        StartCoroutine(Animate());
-    }
+        public List<Sprite> images;
+
+        public float animationSpeed = .25f;
 
 
-    IEnumerator Animate()
-    {
-        currentFrameIndex = currentFrameIndex + 1;
+        public int currentFrameIndex = 0;
 
-        if (currentFrameIndex >= images.Count)
+
+        public void Start()
+        {
             currentFrameIndex = 0;
+            currentSprite.sprite = images[currentFrameIndex];
 
-        currentSprite.sprite = images[currentFrameIndex];
+            StartCoroutine(Animate());
+        }
 
-        yield return new WaitForSeconds(animationSpeed);
 
-        StartCoroutine(Animate());
+        IEnumerator Animate()
+        {
+            currentFrameIndex = currentFrameIndex + 1;
+
+            if (currentFrameIndex >= images.Count)
+                currentFrameIndex = 0;
+
+            currentSprite.sprite = images[currentFrameIndex];
+
+            yield return new WaitForSeconds(animationSpeed);
+
+            StartCoroutine(Animate());
+        }
     }
 }
