@@ -20,23 +20,25 @@ public class StickWeapon : WeaponLoadout
         {
             case "up":
                 spawnPos = interaction.up;
-                rot = Quaternion.Euler(0, 0, 0);
+                Debug.Log("upppp");
+                rot = Quaternion.Euler(0, 0,90);
                 dir = "up";
 
                 break;
             case "down":
                 spawnPos = interaction.down;
+                Debug.Log("dowwn");
                 dir = "down";
-                rot = Quaternion.Euler(0, 0, 0);
+                rot = Quaternion.Euler(0, 0, 90);
                 break;
             case "left":
                 spawnPos = interaction.left;
-                rot = Quaternion.Euler(0, 0, 90);
+                rot = Quaternion.Euler(0, 0, 0);
                 dir = "left";
                 break; 
             case "right":
                 spawnPos = interaction.right;
-                rot = Quaternion.Euler(0, 0, 90);
+                rot = Quaternion.Euler(0, 0, 0);
                 dir = "right";
                 break;
             default: 

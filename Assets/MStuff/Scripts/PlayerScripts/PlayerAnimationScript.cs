@@ -20,21 +20,45 @@ public class PlayerAnimationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(rb.velocity.x < 0.0f)
+        if(Input.GetKey("down"))
         {
-            sr.flipX = true;
+            anim.Play("downMoving");
         }
-        else if(rb.velocity.x > 0.0f)
+        else if(top.lastButton == "down")
         {
-            sr.flipX = false;
+            anim.Play("downIdle");
         }
-        if(rb.velocity.y == 0.0f && rb.velocity.x == 0.0f)
+        
+        
+
+
+        if(Input.GetKey("up") )
         {
-            anim.SetBool("Moving", false);
+            anim.Play("UpMoving");
         }
-        else
+        else if(top.lastButton == "up" )
         {
-            anim.SetBool("Moving", true);
+            anim.Play("UpIdle");
         }
+
+        if(Input.GetKey("left") )
+        {
+            anim.Play("LeftMoving");
+        }
+        else if(top.lastButton == "left" )
+        {
+            anim.Play("LeftIdle");
+        }
+
+         if(Input.GetKey("right") )
+        {
+            anim.Play("rightMoving");
+        }
+        else if(top.lastButton == "right")
+        {
+            anim.Play("rightIdle");
+        }
+
+
     }
 }
