@@ -6800,8 +6800,6 @@ MonoBehaviour:
   anim: {fileID: 0}
   moneyPickup: {fileID: 51337362368620888, guid: 895c4853f5628154ab3ade1911061d78, type: 3}
   currDir: 2
-  popupDamagePrefab: {fileID: 0}
-  popUptext: {fileID: 0}
 --- !u!4 &354586318 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2414928542219400922, guid: b13f68638756c1444979bec85d585f96, type: 3}
@@ -11897,7 +11895,6 @@ GameObject:
   - component: {fileID: 725863143}
   - component: {fileID: 725863142}
   - component: {fileID: 725863141}
-  - component: {fileID: 725863145}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11985,37 +11982,15 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 959.5272, y: 538.141}
+  m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
---- !u!95 &725863145
-Animator:
-  serializedVersion: 5
-=======
 --- !u!1 &730462250
 GameObject:
->>>>>>> 01c8be4599adf399bd0ae3966d49346173f22568
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 725863140}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c380e4d61f6bfa14583fb03de276e1e5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 730462251}
@@ -12094,7 +12069,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
->>>>>>> 01c8be4599adf399bd0ae3966d49346173f22568
 --- !u!4 &743405964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2414928542219400922, guid: b13f68638756c1444979bec85d585f96, type: 3}
@@ -33722,7 +33696,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2099177082
 MonoBehaviour:
@@ -33945,8 +33919,6 @@ MonoBehaviour:
   anim: {fileID: 0}
   moneyPickup: {fileID: 0}
   currDir: 3
-  popupDamagePrefab: {fileID: 0}
-  popUptext: {fileID: 0}
 --- !u!4 &2118578940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2414928542219400922, guid: b13f68638756c1444979bec85d585f96, type: 3}
@@ -34634,10 +34606,6 @@ PrefabInstance:
       propertyPath: currency
       value: 2000
       objectReference: {fileID: 0}
-    - target: {fileID: 847866773317826253, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1440958465583811210, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: near clip plane
       value: -22.65
@@ -34744,7 +34712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4870742312641154373, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: trash
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4905491721475420985, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_RootOrder
@@ -34792,7 +34760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5184274231825873569, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.85
+      value: -7.6
       objectReference: {fileID: 0}
     - target: {fileID: 5313277721055798303, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_Enabled
@@ -34832,11 +34800,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7295023635871373770, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.99
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 7955277696316828069, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.03
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: 8004500906528978299, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_Enabled
@@ -34874,10 +34842,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8693700847171052432, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 8721087477611390554, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_Size.x
       value: 5.595701
@@ -34896,7 +34860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9114234357789089264, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.98
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7831119476321899307, guid: bc509c1915f1ed14382944bddcf30a70, type: 3}
