@@ -80,12 +80,12 @@ public class NarrativeFade : MonoBehaviour
     {
         if (narrativeItem.sprite1 != null)
         {
-            narrativeItem.sprite1.color = new Color(1f, 1f, 1f, sprite1_FadeRatio);
+            narrativeItem.sprite1.color = new Color(narrativeItem.sprite1.color.r, narrativeItem.sprite1.color.g, narrativeItem.sprite1.color.b, sprite1_FadeRatio);
         }
 
         if (narrativeItem.sprite2 != null)
         {
-            narrativeItem.sprite2.color = new Color(1f, 1f, 1f, sprite2_FadeRatio);
+            narrativeItem.sprite2.color = new Color(narrativeItem.sprite2.color.r, narrativeItem.sprite2.color.g, narrativeItem.sprite2.color.b, sprite2_FadeRatio);
         }
 
 

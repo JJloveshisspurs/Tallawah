@@ -689,6 +689,18 @@ MonoBehaviour:
   - audioClip: {fileID: 8300000, guid: d9cae2b2ef2a348dfac338707e2329e6, type: 3}
     custom_Volume: 0
     SFX_TrackSelection: 14
+  - audioClip: {fileID: 8300000, guid: a6ecacdec78a441a3a9ce89871d553b5, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 1
+  - audioClip: {fileID: 8300000, guid: 5011375f5069d45e9bc181004ba0bc56, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 16
+  - audioClip: {fileID: 8300000, guid: b7254fcc2bd9644abb23f73175b19c60, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 19
+  - audioClip: {fileID: 8300000, guid: 108c0b475d469486c9cb279d2c5bd60e, type: 3}
+    custom_Volume: 0
+    SFX_TrackSelection: 3
   music_Source: {fileID: 955134073427880750}
   SFX_Sources:
   - {fileID: 7996073663380552212}
