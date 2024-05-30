@@ -239,7 +239,7 @@ MonoBehaviour:
   speed: 1
   rb: {fileID: 0}
   disturb: 0
-  dPercentage: 0.005
+  dPercentage: 0.02
   currency: 0
   anim: {fileID: 0}
   moneyPickup: {fileID: 51337362368620888, guid: 895c4853f5628154ab3ade1911061d78, type: 3}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3957276855609422104}
   - component: {fileID: 898968006137452566}
   - component: {fileID: 2236768476068558503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: waterGunBullet
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -103,6 +103,9 @@ MonoBehaviour:
   dir: 
   speed: 6.08
   rb: {fileID: 0}
+  attack: 0
+  limitTime: 0
+  theTime: 0.2
 --- !u!50 &3957276855609422104
 Rigidbody2D:
   serializedVersion: 4
@@ -145,6 +148,9 @@ MonoBehaviour:
   dir: 
   speed: 4.01
   rb: {fileID: 0}
+  attack: 0
+  limitTime: 0
+  theTime: 0.2
 --- !u!61 &2236768476068558503
 BoxCollider2D:
   m_ObjectHideFlags: 0

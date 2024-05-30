@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class AssistButton : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class AssistButton : MonoBehaviour
     public GameObject cousin;
 
     private bool finishLoading = true;
-
+    public GameObject uiBlock;
+    public TextMeshProUGUI assistText;
     private GameObject temp; 
     Animator anim;
 
@@ -29,9 +31,10 @@ public class AssistButton : MonoBehaviour
             assistGuage = 50.0f;
             finishLoading = true;
         }
-        if(Input.GetKeyDown("x"))
+        if(Input.GetKeyDown("x") && finishLoading)
         {
-            anim.Play("Player_Assist");
+            anim.Play("AssistAnimation");
+            assistActive = true;
             finishLoading = false;   
             assistGuage = 0.0f; 
         }
@@ -52,10 +55,25 @@ public class AssistButton : MonoBehaviour
         temp = Instantiate(cousin,transform.position, transform.rotation) as GameObject;
     }
 
+    public void UIcanvasStart()
+    {
+        uiBlock.SetActive(true);
+        assistText.text = "cousin: Out of many, one people. Likkle but tallahwah! (English: Out of many we are one people. We’re small but big!)";
+    }
+
+    public void UIcanvasSecond()
+    {
+        uiBlock.SetActive(true);
+        assistText.text = "You are now annoying enemies faster";
+    }
+
+
     public void unpause()
     {
         Time.timeScale = 1.0f;
         Destroy(temp);
+        assistActive = false;
+        uiBlock.SetActive(false);
         Debug.Log("yo");
     }
 
