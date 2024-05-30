@@ -23,9 +23,12 @@ public class TrashPickup : MonoBehaviour
     {
         if(obj.gameObject.tag == "Player")
         {
-            obj.gameObject.GetComponent<InventoryScript>().trash += 1;
-            Counter.instance.IncreaseCoins(1);
-            Destroy(gameObject);
+            if (obj.gameObject.GetComponent<InventoryScript>() != null)
+            {
+                obj.gameObject.GetComponent<InventoryScript>().trash += 1;
+                Counter.instance.IncreaseCoins(1);
+                Destroy(gameObject);
+            }
         }
     }
 }

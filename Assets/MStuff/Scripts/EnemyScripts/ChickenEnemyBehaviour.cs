@@ -52,9 +52,14 @@ public class ChickenEnemyBehaviour : EnemyBehaviour
         if(!disturb)
         {
             if(obj.gameObject.tag =="Player")
-            {   
-                obj.gameObject.GetComponent<PlayerManagementScript>().Damage(dPercentage, GetComponent<ChickenEnemyBehaviour>());
-                Debug.Log("Last year");
+            {
+                if (obj.gameObject.GetComponent<PlayerManagementScript>() != null)
+                {
+                    obj.gameObject.GetComponent<PlayerManagementScript>().Damage(dPercentage, GetComponent<ChickenEnemyBehaviour>());
+
+
+                    Debug.Log("Last year");
+                }
             }
 
             
