@@ -17,7 +17,7 @@ public class FadeOut : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-
+        sprite_FadeRatio = 1f;
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class FadeOut : MonoBehaviour
     public void UpdateColor()
     {
 
-        sprite_FadeRatio = sprite_Fadetimer / sprite_Fadetime;
+        sprite_FadeRatio = (sprite_Fadetime - sprite_Fadetimer) / sprite_Fadetime;
 
         if (sprite != null)
         {

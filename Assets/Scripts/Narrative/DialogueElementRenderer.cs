@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueElementRenderer : MonoBehaviour
+[System.Serializable]
+public class DialogueElementRenderer 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int dialogue_Page;
+    public int dialogueBlock;
+    public GameObject objectToActivate;
 
-    // Update is called once per frame
-    void Update()
+    public void ActivateObject()
     {
-        
+
+        objectToActivate.SetActive(true);
     }
 }
