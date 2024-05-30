@@ -16,8 +16,8 @@ public class InteractionButtonScript : MonoBehaviour
 
     public bool ready = true;
     public AudioSource audioC;
-    public float waitTimeCounter = 0.0f;
-
+    public float waitTimeCounter = 100.0f;
+    public float rate = 1.0f;
     void Start()
     {
         audioC = GetComponent<AudioSource>();
@@ -26,20 +26,29 @@ public class InteractionButtonScript : MonoBehaviour
     {
         if(Input.GetKeyDown("space")&&ready)
         {
-            wepn.useWeapon(this.gameObject);
-            waitTimeCounter = 0.0f;
-            playSound();
-            ready = false;
+            if(waitTimeCounter > wepn.takeAway)
+            {
+                wepn.useWeapon(this.gameObject);
+                waitTimeCounter -= wepn.takeAway;
+                playSound();
+            }
+            //ready = false;
         }
 
-        if(!ready)
+        if(waitTimeCounter <= 0.0f)
         {
-            waitTimeCounter += Time.deltaTime;
-            if(waitTimeCounter >= wepn.coolDown)
+            waitTimeCounter = 0.0f;
+            //ready=false;
+        }
+
+        //if(!ready)
+        //{
+            waitTimeCounter += Time.deltaTime*rate;
+            if(waitTimeCounter >= 100.0)
             {
                 ready = true;
             }
-        }
+        //}
     }
 
     public void playSound()

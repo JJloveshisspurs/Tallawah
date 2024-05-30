@@ -20,6 +20,8 @@ public class PlayerAnimationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!GetComponent<AssistButton>().assistActive)
+        {
         if(Input.GetKey("down"))
         {
             anim.Play("downMoving");
@@ -59,6 +61,7 @@ public class PlayerAnimationScript : MonoBehaviour
             anim.Play("rightIdle");
         }
 
+        }
 
     }
 }

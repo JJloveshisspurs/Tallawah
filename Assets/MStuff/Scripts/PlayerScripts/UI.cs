@@ -11,7 +11,7 @@ public class UI : MonoBehaviour
     public InteractionButtonScript ibs;
     public AssistButton ab;
     public TextMeshProUGUI lifeText;
-    public TextMeshProUGUI keyText;
+    
     public TextMeshProUGUI trashText;
     public Image imageUI;
     public Slider WeaponSlide;
@@ -26,7 +26,7 @@ public class UI : MonoBehaviour
 
         trashText.text = Is.trash.ToString() +"/7";
         lifeText.text = "Money: " + pms.currency.ToString();
-        keyText.text = "Keys: " + Is.keys.ToString();
+       
         imageUI.sprite = ibs.wepn.image;
     }
 
@@ -37,9 +37,9 @@ public class UI : MonoBehaviour
        origColor.a = ab.assistGuage/ab.assistGuageLimit;
        assistImage.GetComponent<Image>().color = origColor;
         lifeText.text =  pms.currency.ToString();
-        keyText.text = "Keys: " + Is.keys.ToString();
+        
         imageUI.sprite = ibs.wepn.image;
-        WeaponSlide.maxValue = ibs.wepn.coolDown;
+        WeaponSlide.maxValue = 100.0f;
         WeaponSlide.value = ibs.waitTimeCounter;
         trashText.text = Is.trash.ToString() +"/7";
     }

@@ -17,7 +17,7 @@ MonoBehaviour:
   ammo: 0
   image: {fileID: 1422369201, guid: be710163e9201214d80538a74b955adf, type: 3}
   power: 1
-  coolDown: 1.51
+  takeAway: 20
   sound: {fileID: 8300000, guid: d9cae2b2ef2a348dfac338707e2329e6, type: 3}
   movement: {fileID: 0}
   interaction: {fileID: 0}
