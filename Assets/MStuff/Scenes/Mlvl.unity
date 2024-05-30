@@ -1258,9 +1258,6 @@ Transform:
   - {fileID: 1131750987}
   - {fileID: 538057884}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 14
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &50748494
 GameObject:
@@ -1717,9 +1714,6 @@ Transform:
   - {fileID: 275315780}
   - {fileID: 2017431963}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 22
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &79928864
 PrefabInstance:
@@ -8944,9 +8938,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 17
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &509926082
 GameObject:
@@ -9197,7 +9188,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &516311207
 RectTransform:
@@ -9215,9 +9206,6 @@ RectTransform:
   - {fileID: 1419693162}
   - {fileID: 1260766386}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 23
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10506,9 +10494,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 9
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &622717349
 PrefabInstance:
@@ -11962,14 +11947,11 @@ RectTransform:
   m_Children:
   - {fileID: 1590490777}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 3
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 960, y: 540}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &730462250
 GameObject:
@@ -14055,10 +14037,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 10
-
-  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890535520
 GameObject:
   m_ObjectHideFlags: 0
@@ -16973,9 +16952,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 24
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1063494029
 BoxCollider2D:
@@ -17275,9 +17251,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 6
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1109742312
 GameObject:
@@ -22864,9 +22837,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 7
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1489003682
 PrefabInstance:
@@ -26152,9 +26122,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 16
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1655248053 stripped
 Transform:
@@ -26285,9 +26252,6 @@ Transform:
   - {fileID: 925459771}
   - {fileID: 177281308}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 18
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1663214868
 PrefabInstance:
@@ -31542,9 +31506,6 @@ Transform:
   - {fileID: 371348096}
   - {fileID: 1067871757}
   m_Father: {fileID: 0}
-
-  m_RootOrder: 5
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2027044895
 GameObject:
@@ -32080,9 +32041,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 8
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042085037
 GameObject:
@@ -34310,9 +34268,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-
-  m_RootOrder: 15
-
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1831094739273576151
 PrefabInstance:
@@ -35203,7 +35158,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1818246985}
   - {fileID: 425682327}
-  - {fileID: 991514525}
   - {fileID: 292618951}
   - {fileID: 725863144}
   - {fileID: 6914197584425469593}
