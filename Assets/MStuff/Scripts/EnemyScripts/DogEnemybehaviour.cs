@@ -13,6 +13,7 @@ public class DogEnemybehaviour : EnemyBehaviour
 
     public GameObject popupDamagePrefab;
     public TMP_Text popUptext;
+    public SpriteRenderer sr;
 
 
     
@@ -25,9 +26,11 @@ public class DogEnemybehaviour : EnemyBehaviour
             
             case moveDir.east:
                 rb.velocity = new Vector2(speed, 0.0f);
+                sr.flipX=true;
                 break;
             case moveDir.west:
                 rb.velocity = new Vector2(-speed, 0.0f);
+                sr.flipX=false;
                 break;
             case moveDir.north:
                 rb.velocity = new Vector2(0.0f, speed);

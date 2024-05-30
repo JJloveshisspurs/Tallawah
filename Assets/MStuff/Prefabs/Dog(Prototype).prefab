@@ -103,6 +103,7 @@ MonoBehaviour:
   - {fileID: -1316717831, guid: d79de3741c139459bb20a6302759d51e, type: 3}
   animationSpeed: 0.125
   currentFrameIndex: 0
+  playOnStart: 1
 --- !u!1 &6000115020031032361
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +283,7 @@ MonoBehaviour:
   currDir: 2
   popupDamagePrefab: {fileID: 3752500010376832824, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
   popUptext: {fileID: 6205391407663992211, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
+  sr: {fileID: 1156377033247859417}
 --- !u!50 &4208187317124433838
 Rigidbody2D:
   serializedVersion: 4
@@ -327,3 +329,4 @@ MonoBehaviour:
   - {fileID: -1316717831, guid: d79de3741c139459bb20a6302759d51e, type: 3}
   animationSpeed: 0.25
   currentFrameIndex: 0
+  playOnStart: 1

@@ -15,9 +15,11 @@ GameObject:
   - component: {fileID: 6114354614411059661}
   - component: {fileID: 7058296411952498449}
   - component: {fileID: -4718454682402998292}
+  - component: {fileID: 3541842973559828327}
+  - component: {fileID: 8991814805553778424}
   m_Layer: 0
   m_Name: Chicken2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -201,6 +203,7 @@ MonoBehaviour:
   - {fileID: 1266173748, guid: 1560502b968b77240bb538319141e012, type: 3}
   animationSpeed: 0.25
   currentFrameIndex: 0
+  playOnStart: 1
 --- !u!114 &-4718454682402998292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +211,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168884652045336063}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a130956370fe44c988e4d752d45243a, type: 3}
   m_Name: 
@@ -219,3 +222,61 @@ MonoBehaviour:
   - {fileID: -1833687511, guid: 81769b8a8e45c4b40a45a6c422da721e, type: 3}
   animationSpeed: 0.2
   currentFrameIndex: 0
+  playOnStart: 1
+--- !u!114 &3541842973559828327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168884652045336063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa5a48f1d1cfb94bb6ddfc1e823ae27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  irratationlvl: 1
+  speed: 1
+  rb: {fileID: 0}
+  disturb: 0
+  dPercentage: 0.005
+  currency: 0
+  anim: {fileID: 0}
+  moneyPickup: {fileID: 51337362368620888, guid: 895c4853f5628154ab3ade1911061d78, type: 3}
+  popupDamagePrefab: {fileID: 3752500010376832824, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
+  popUptext: {fileID: 6205391407663992211, guid: 23c22ddc0c7a17043902224157901fc6, type: 3}
+--- !u!58 &8991814805553778424
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168884652045336063}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.145
