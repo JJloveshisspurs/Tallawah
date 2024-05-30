@@ -59,6 +59,7 @@ public class AudioManager : MonoBehaviour
 
         music_Source.clip = selectedAudioClip;
 
+        music_Source.loop = true;
         music_Source.Play();
 
     }
@@ -66,8 +67,8 @@ public class AudioManager : MonoBehaviour
     public void StopMusic()
     {
 
-        
 
+        music_Source.loop = false;
         music_Source.Stop();
 
     }

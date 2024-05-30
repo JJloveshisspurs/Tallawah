@@ -12,6 +12,7 @@ public class SceneIntroMusic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AudioManager.instance.StopMusic();
         clipTime = intro_Clip.length;
         intro_Music.PlayOneShot(intro_Clip);
         StartCoroutine(IntroToMainLoop());
