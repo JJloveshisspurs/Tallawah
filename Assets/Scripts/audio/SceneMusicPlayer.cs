@@ -8,6 +8,11 @@ public class SceneMusicPlayer : MonoBehaviour
     public MusicTrackEnums.Music musicSelection;
 
     // Start is called before the first frame update
+
+    private void OnEnable()
+    {
+        
+    }
     void Start()
     {
         PlayMusicOnSceneStart();
