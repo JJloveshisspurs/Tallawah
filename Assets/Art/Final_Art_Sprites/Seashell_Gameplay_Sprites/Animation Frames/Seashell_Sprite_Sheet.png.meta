@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,9 +106,1870 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 4539
+        width: 1143
+        height: 2938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87ced5bf949418439a0dd2bbc9d2c81
+      internalID: 1500438018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 4649
+        width: 1240
+        height: 2738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c36b31593041f84a8b66ea307f3b7ad
+      internalID: 1519102739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 5707
+        width: 31
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abcb4b0858d78c4f9e686264df7290b
+      internalID: -418251783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5101
+        y: 4469
+        width: 1103
+        height: 2832
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b2ac330500be4da150be5ebb041ea
+      internalID: 72918046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7277
+        y: 4561
+        width: 959
+        height: 2827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91e6194cf1da0d4fb80ca158dad917d
+      internalID: 1175889137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 9306
+        y: 4466
+        width: 973
+        height: 2871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bf7ee7730198f4382ff552ef6fc3ed
+      internalID: 106298643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 11111
+        y: 4817
+        width: 1402
+        height: 2417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cee74bf735dd54f8044554fb2ad6aa
+      internalID: -487398062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 13043
+        y: 4965
+        width: 1461
+        height: 2518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3448128b6e4563c4ba48b5a562a55cfb
+      internalID: 1013735624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3909
+        y: 5554
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784f41d1dc9511640be498d8ce0d9059
+      internalID: -435832390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 5509
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8e435c2e023904188d86cd7cb79672
+      internalID: -522187292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 5502
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7b5439a79c4a943806013ba8007d73
+      internalID: -1954171833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3955
+        y: 5473
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dea0454a607034aa29eb691859c43d
+      internalID: 62734742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 5370
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fed09a7a38db22429534a3ca2905cea
+      internalID: -617025497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 13008
+        y: 5378
+        width: 51
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d2973bcdc7ad048ac3b74f8ec587c4
+      internalID: -978832906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 5297
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909085731e156574db32e1248d2587cc
+      internalID: -1807000259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 5163
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e87e8819b6164d9185be8758f4d74
+      internalID: -1094360480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 12503
+        y: 5216
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac435cfe9a22bb64dbc0f159a1f4c6ef
+      internalID: -574475344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 5099
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411b2c4dd74d24f4a89a2ef254773cd1
+      internalID: 1129250214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 4828
+        width: 119
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c65de67e5a9c4d9bd126017e5d39e
+      internalID: -1555759620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 13540
+        y: 4921
+        width: 26
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b924de938993e41a1575df785417f1
+      internalID: -1135086522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 14191
+        y: 4868
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1812275a6ca2cf94698b75423abca205
+      internalID: 1063710886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 13960
+        y: 4870
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56afa73a61c62cc46ab8aff1baf6c01d
+      internalID: -1886060382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 12012
+        y: 4774
+        width: 25
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28d7262deee0004e977fc4771166019
+      internalID: 957313328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 13533
+        y: 4810
+        width: 173
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e258b6d39b2c881478a6b9a47db4f44a
+      internalID: 251180547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 13760
+        y: 4795
+        width: 192
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ec58c6eceb8348b0b5011ec2ab9d6
+      internalID: -1564313436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 11342
+        y: 4722
+        width: 73
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5362e9bec3527dc4aa31aa95c7ed1af5
+      internalID: 938731355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 11607
+        y: 4724
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18370e1830445d541b80a1aa53ba72c0
+      internalID: 1162722798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 11643
+        y: 4650
+        width: 185
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4380605166163864dabf9d35f5a86b62
+      internalID: 1258352852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 11877
+        y: 4664
+        width: 167
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53950db987074904bb8936be3612d71e
+      internalID: -714284715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 4590
+        width: 185
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db60a645ad4964cbafe70ffa0c716e
+      internalID: 1538996800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 4576
+        width: 200
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b83dac55816c6f41972f915474714b1
+      internalID: 115943906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1612
+        width: 1432
+        height: 2684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daac76988d74a524ebc472176a0103b1
+      internalID: 242994721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 1550
+        width: 1750
+        height: 2564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6085ff2b0bf3b4c9271998c0e2c263
+      internalID: -2079743029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 5198
+        y: 1403
+        width: 1247
+        height: 2754
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda042eee0218954492dd4b2b9d5737c
+      internalID: -1873421394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7746
+        y: 1183
+        width: 1354
+        height: 3165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981d0a334d506b8488b3ad9d0eb5d3e1
+      internalID: -1540604799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 10357
+        y: 1507
+        width: 805
+        height: 2650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677cb263030443547afd90a4f9f942d4
+      internalID: -1970817918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 2906
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3034c63e75849d242b53d98bae3cc5f2
+      internalID: -1874609040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 12620
+        y: 1807
+        width: 812
+        height: 2673
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2845e9c64c15e4c48baef05d5c98ed6e
+      internalID: -9328733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 12471
+        y: 2872
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509243d37da70c4bb94d56ea20f38da
+      internalID: -94826458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 12610
+        y: 2826
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688dc83cacb37644b8ae8c5fa382de57
+      internalID: 2128029705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 12407
+        y: 2703
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a290ae646a38a4f905432c1631141e
+      internalID: 665707969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 12371
+        y: 2652
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a7c494f8da5134ab9c936ad6fd2936
+      internalID: -1930868854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 12385
+        y: 2658
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556ee859e427f6f4b94f3d55b55a3d1f
+      internalID: 193004595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 11294
+        y: 2564
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fc4ce28d78439469a83f699039b124
+      internalID: -872364422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5111
+        y: 2511
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2267712762bc564a8db568173519672
+      internalID: 1939998136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 11160
+        y: 2519
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d7489bf7db7be4089abe67b7bfea62
+      internalID: -46695426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 12371
+        y: 2513
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc16006a5916dc8429ea159e2b6b70d9
+      internalID: 1543677230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 5118
+        y: 2469
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3588d842d7a12488f37e675193822d
+      internalID: -1180982397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 12325
+        y: 2474
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252961d2bb96b3248bdc218268bfcafa
+      internalID: 2063343143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 12305
+        y: 2440
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939a00e766128084fa6804410cc52385
+      internalID: 2009032360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 11360
+        y: 2396
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764e538d612c1344c8397a7b8bbdd843
+      internalID: 951719993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 12272
+        y: 2293
+        width: 86
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77780195dac7ab6438ab6513d1571989
+      internalID: 1239519508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 11373
+        y: 2350
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa62fbf88365884bb2374d469495e45
+      internalID: -1921691690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 11404
+        y: 2344
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bebde7a31852f4f8017471fe48913b
+      internalID: 1673214459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 5039
+        y: 2315
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f666426f60a6a6e43a19b5ea771ba4ec
+      internalID: 591541677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 2264
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46acbe01b4f82946af862e1c2130d23
+      internalID: -1102340273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 2269
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af53c872af488104d9418ffbc8704c1a
+      internalID: 1337992893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 12319
+        y: 2247
+        width: 88
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969ffb96094d08d4da3e08db850eac6b
+      internalID: 900888548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 4995
+        y: 2235
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89d822cd8a7044180286fe614bf187
+      internalID: -918315109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 11404
+        y: 2205
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17b91a36cf935f4ca386f530b864f14
+      internalID: 1209729030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 11417
+        y: 2167
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c463c852ef4eedc4a916b0c94bd320e8
+      internalID: -1836045804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 12568
+        y: 1963
+        width: 96
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af8cd20eda80124394a6af435daff44
+      internalID: -1261813618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 4937
+        y: 2093
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d965ac8105f2d468c6c9918c1babf6
+      internalID: 923625737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 2132
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06292983e7a7184aa39084a50bb645a
+      internalID: -1595721721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 11455
+        y: 2132
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2aca70f602fb247b5b417ede78285c
+      internalID: 128511296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 13433
+        y: 2066
+        width: 87
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccd0813c19cda7469c92e0a936ec0d8
+      internalID: 1569632947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 4915
+        y: 2051
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dddf89073aa494c927b285a855de91
+      internalID: 1096291484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 11374
+        y: 1941
+        width: 135
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df450ac4870ce294385a61ad1ccb0142
+      internalID: -1510026473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1898
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149d288e194cd1b48a05a3b6ee20e4d3
+      internalID: -172497958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 1919
+        width: 97
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f70266035ae684aa4e624c60c6ec7e
+      internalID: 396119072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 4915
+        y: 1861
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db51c97690a264741b702dd500d41816
+      internalID: 75329645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 11124
+        y: 1663
+        width: 91
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979e317dd4ab94d42b4749777ab6f439
+      internalID: -1379074667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 5140
+        y: 1582
+        width: 119
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801ce0083ea98d5498c37937e1879b27
+      internalID: 2031311696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 10276
+        y: 1766
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21603f14e08ec734b8a9c6bef985361f
+      internalID: 1906101388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1595
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dcab7aab278ae46a803e8e1c854551
+      internalID: 1133829644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1535
+        width: 183
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c653120b90422f4ab0c9aa9a2aa4e03
+      internalID: 1727000894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1587
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fffc03691c629d4896a8db07b6e8b85
+      internalID: 250780577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1539
+        width: 139
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e702ef6bece86d448184aec3b5bf8d8
+      internalID: 265527538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1551
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857376a3ff012144ea9b0c24a2f9ceb8
+      internalID: 2127697883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 3391
+        y: 1539
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7e768e40d118b4f876524dc57dca71
+      internalID: 132912056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1524
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae189917c4572e48b00ce6360a3b72e
+      internalID: 20204120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 1456
+        width: 21
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec28f234e37aa9489994e3fbf644b19
+      internalID: -2117629733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 1403
+        width: 83
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417fa0d46d36324289ff35aaad738f5
+      internalID: 666175469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1405
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2db7afd9afb9440963ec8ad74283f6
+      internalID: -511428316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 1324
+        width: 200
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7061fdc8268ef2546a1ec2f1a6a7fdb7
+      internalID: 1055744141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 1339
+        width: 187
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e158844af3a74b852d3b50428088b
+      internalID: 311343105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 5535
+        y: 1326
+        width: 207
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcb0423eace0964d96c56d88201a307
+      internalID: -1726548003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Seashell_Sprite_Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 5793
+        y: 1339
+        width: 187
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcc7914bf176db46ae25978447b05c5
+      internalID: 1731401018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1980,95 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Seashell_Sprite_Sheet_0: 1500438018
+      Seashell_Sprite_Sheet_1: 1519102739
+      Seashell_Sprite_Sheet_10: -1954171833
+      Seashell_Sprite_Sheet_11: 62734742
+      Seashell_Sprite_Sheet_12: -617025497
+      Seashell_Sprite_Sheet_13: -978832906
+      Seashell_Sprite_Sheet_14: -1807000259
+      Seashell_Sprite_Sheet_15: -1094360480
+      Seashell_Sprite_Sheet_16: -574475344
+      Seashell_Sprite_Sheet_17: 1129250214
+      Seashell_Sprite_Sheet_18: -1555759620
+      Seashell_Sprite_Sheet_19: -1135086522
+      Seashell_Sprite_Sheet_2: -418251783
+      Seashell_Sprite_Sheet_20: 1063710886
+      Seashell_Sprite_Sheet_21: -1886060382
+      Seashell_Sprite_Sheet_22: 957313328
+      Seashell_Sprite_Sheet_23: 251180547
+      Seashell_Sprite_Sheet_24: -1564313436
+      Seashell_Sprite_Sheet_25: 938731355
+      Seashell_Sprite_Sheet_26: 1162722798
+      Seashell_Sprite_Sheet_27: 1258352852
+      Seashell_Sprite_Sheet_28: -714284715
+      Seashell_Sprite_Sheet_29: 1538996800
+      Seashell_Sprite_Sheet_3: 72918046
+      Seashell_Sprite_Sheet_30: 115943906
+      Seashell_Sprite_Sheet_31: 242994721
+      Seashell_Sprite_Sheet_32: -2079743029
+      Seashell_Sprite_Sheet_33: -1873421394
+      Seashell_Sprite_Sheet_34: -1540604799
+      Seashell_Sprite_Sheet_35: -1970817918
+      Seashell_Sprite_Sheet_36: -1874609040
+      Seashell_Sprite_Sheet_37: -9328733
+      Seashell_Sprite_Sheet_38: -94826458
+      Seashell_Sprite_Sheet_39: 2128029705
+      Seashell_Sprite_Sheet_4: 1175889137
+      Seashell_Sprite_Sheet_40: 665707969
+      Seashell_Sprite_Sheet_41: -1930868854
+      Seashell_Sprite_Sheet_42: 193004595
+      Seashell_Sprite_Sheet_43: -872364422
+      Seashell_Sprite_Sheet_44: 1939998136
+      Seashell_Sprite_Sheet_45: -46695426
+      Seashell_Sprite_Sheet_46: 1543677230
+      Seashell_Sprite_Sheet_47: -1180982397
+      Seashell_Sprite_Sheet_48: 2063343143
+      Seashell_Sprite_Sheet_49: 2009032360
+      Seashell_Sprite_Sheet_5: 106298643
+      Seashell_Sprite_Sheet_50: 951719993
+      Seashell_Sprite_Sheet_51: 1239519508
+      Seashell_Sprite_Sheet_52: -1921691690
+      Seashell_Sprite_Sheet_53: 1673214459
+      Seashell_Sprite_Sheet_54: 591541677
+      Seashell_Sprite_Sheet_55: -1102340273
+      Seashell_Sprite_Sheet_56: 1337992893
+      Seashell_Sprite_Sheet_57: 900888548
+      Seashell_Sprite_Sheet_58: -918315109
+      Seashell_Sprite_Sheet_59: 1209729030
+      Seashell_Sprite_Sheet_6: -487398062
+      Seashell_Sprite_Sheet_60: -1836045804
+      Seashell_Sprite_Sheet_61: -1261813618
+      Seashell_Sprite_Sheet_62: 923625737
+      Seashell_Sprite_Sheet_63: -1595721721
+      Seashell_Sprite_Sheet_64: 128511296
+      Seashell_Sprite_Sheet_65: 1569632947
+      Seashell_Sprite_Sheet_66: 1096291484
+      Seashell_Sprite_Sheet_67: -1510026473
+      Seashell_Sprite_Sheet_68: -172497958
+      Seashell_Sprite_Sheet_69: 396119072
+      Seashell_Sprite_Sheet_7: 1013735624
+      Seashell_Sprite_Sheet_70: 75329645
+      Seashell_Sprite_Sheet_71: -1379074667
+      Seashell_Sprite_Sheet_72: 2031311696
+      Seashell_Sprite_Sheet_73: 1906101388
+      Seashell_Sprite_Sheet_74: 1133829644
+      Seashell_Sprite_Sheet_75: 1727000894
+      Seashell_Sprite_Sheet_76: 250780577
+      Seashell_Sprite_Sheet_77: 265527538
+      Seashell_Sprite_Sheet_78: 2127697883
+      Seashell_Sprite_Sheet_79: 132912056
+      Seashell_Sprite_Sheet_8: -435832390
+      Seashell_Sprite_Sheet_80: 20204120
+      Seashell_Sprite_Sheet_81: -2117629733
+      Seashell_Sprite_Sheet_82: 666175469
+      Seashell_Sprite_Sheet_83: -511428316
+      Seashell_Sprite_Sheet_84: 1055744141
+      Seashell_Sprite_Sheet_85: 311343105
+      Seashell_Sprite_Sheet_86: -1726548003
+      Seashell_Sprite_Sheet_87: 1731401018
+      Seashell_Sprite_Sheet_9: -522187292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
