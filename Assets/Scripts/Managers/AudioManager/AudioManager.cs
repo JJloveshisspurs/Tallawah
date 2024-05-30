@@ -63,6 +63,15 @@ public class AudioManager : MonoBehaviour
 
     }
 
+    public void StopMusic()
+    {
+
+        
+
+        music_Source.Stop();
+
+    }
+
     public void PlaySFX(SFXTrackEnums.SFX pSFXTracks)
     {
         
