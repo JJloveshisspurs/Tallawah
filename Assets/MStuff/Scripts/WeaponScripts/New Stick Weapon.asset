@@ -16,7 +16,7 @@ MonoBehaviour:
   limitUse: 0
   ammo: 0
   image: {fileID: 21300000, guid: ef9f0836311014b2aa0c2e57f07e202b, type: 3}
-  power: 1
+  power: 2
   takeAway: 30
   sound: {fileID: 8300000, guid: 8cbd63d41a63349ba8f5ed9a9b745672, type: 3}
   ready: 1

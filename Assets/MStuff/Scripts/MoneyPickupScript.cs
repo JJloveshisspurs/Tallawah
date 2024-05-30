@@ -19,10 +19,14 @@ public class MoneyPickupScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if(obj.gameObject.tag == "Player")
+        if (obj.gameObject.tag == "Player")
         {
-            obj.gameObject.GetComponent<PlayerManagementScript>().currency += hold;
-            Destroy(gameObject); 
-        }
+            if (obj.gameObject.GetComponent<PlayerManagementScript>() != null)
+            {
+                obj.gameObject.GetComponent<PlayerManagementScript>().currency += hold;
+
+                Destroy(gameObject);
+             }
+    }
     }
 }
