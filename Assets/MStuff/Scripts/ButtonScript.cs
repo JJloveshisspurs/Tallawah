@@ -31,6 +31,7 @@ public class ButtonScript : MonoBehaviour
 
     public void ObjectDestroy()
     {
+        AudioManager.instance.PlaySFX(SFXTrackEnums.SFX.Trash_Plastic_Wrap);
         for(int i = 0; i < destroyObj.Length; i++)
         {
             Destroy(destroyObj[i]);

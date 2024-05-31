@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: f9f4e98ef23f843c99d4adfa8a14c70e
   - enabled: 1
-    path: Assets/Scenes/Narrative.unity
+    path: Assets/Scenes/NArrative.unity
     guid: 89ea6a5ed8a7046df8131c2893cfacb4
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MStuff/Scenes/Mlvl.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/MStuff/Scenes/Mlvl2.unity
+    guid: f4a7335c6240dee4da42a57176ec9aad
   - enabled: 1
     path: Assets/Scenes/Narrative_End.unity
     guid: 7a8b1fdbc23e344a082483b18c681afb

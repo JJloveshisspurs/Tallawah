@@ -22,6 +22,8 @@ public class NarrativeTextRenderer : MonoBehaviour
     public bool testDialogueOnStart = false;
     public GameObject nextButton;
 
+    public List<DialogueElementRenderer> dialogueElements;
+
     public void Start()
     {
         /*if (testDialogueOnStart)
@@ -134,14 +136,31 @@ public class NarrativeTextRenderer : MonoBehaviour
         else
         {
             AudioManager.instance.PlaySFX(dialogue[dialogueblockTextIndex].soundEffectSelection);
+            ActiveDialogueElements();
             StartCoroutine(IterateThroughText());
         }
     }
 
     public void MoveToNextPage()
     {
-
+        
         Debug.Log("Moving to the Next Page!!!!");
         narrativeController.FinishedPrintingNarrativeText();
     }
+
+    public void ActiveDialogueElements()
+    {
+        Debug.Log("Activating Dialogue Element!!!!");
+        for (int i = 0; i < dialogueElements.Count; i++)
+        {
+            if (dialogueblockTextIndex == dialogueElements[i].dialogueBlock && narrativeController.NarrativePanelIndex == dialogueElements[i].dialogue_Page)
+            {
+
+                dialogueElements[i].ActivateObject();
+            }
+
+
+        }
+
+    } 
 }
