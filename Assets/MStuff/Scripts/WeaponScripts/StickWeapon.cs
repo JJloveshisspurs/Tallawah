@@ -29,11 +29,11 @@ public class StickWeapon : WeaponLoadout
                 spawnPos = interaction.down;
                 Debug.Log("dowwn");
                 dir = "down";
-                rot = Quaternion.Euler(0, 0, 90);
+                rot = Quaternion.Euler(0, 0, 270);
                 break;
             case "left":
                 spawnPos = interaction.left;
-                rot = Quaternion.Euler(0, 0, 0);
+                rot = Quaternion.Euler(0, 0, 180);
                 dir = "left";
                 break; 
             case "right":
