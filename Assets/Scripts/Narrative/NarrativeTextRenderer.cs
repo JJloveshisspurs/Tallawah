@@ -37,7 +37,7 @@ public class NarrativeTextRenderer : MonoBehaviour
 
         NarrativeTextItem narrativeItem1 = new NarrativeTextItem();
         narrativeItem1.characterName = "Rasta man";
-        narrativeItem1.dialogue = " *kiss teeth* Too much gyabidge deh a Jamaica. If we nuh love & cherish Mada Earth, oo will?";
+        narrativeItem1.dialogue = " *kisses teeth* Too much gyabidge deh a Jamaica.  " + "(English: Jamaica has too much garbage!)" + "If we nuh love & cherish Mada Earth, oo will?";
 
         testDialogue.Add(narrativeItem1);
 
