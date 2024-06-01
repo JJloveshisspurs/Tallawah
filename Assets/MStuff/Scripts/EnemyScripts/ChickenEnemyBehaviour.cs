@@ -13,10 +13,10 @@ public class ChickenEnemyBehaviour : EnemyBehaviour
         {
             irratationlvl -= a;
             disturb = true;
-            StartCoroutine(reset(1.0f));
+            StartCoroutine(reset(10.0f));
         }
-        if(irratationlvl <= 0)
-        {
+        //if(irratationlvl <= 0)
+       // {
             if(currency > 0.0f)
             {
                 GameObject money = Instantiate(moneyPickup, transform.position, transform.rotation) as GameObject;
@@ -26,15 +26,19 @@ public class ChickenEnemyBehaviour : EnemyBehaviour
             {
                 moneyChance();
             }
-            Destroy(gameObject);
-        }
+           // Destroy(gameObject);
+        //}
     }
 
     IEnumerator reset(float t)
     {
+        GetComponent<AiChase>().stop = true;
         //anim.Play("Dog_Hurt");
         //rb.velocity = new Vector2(0.0f, 0.0f);
+        yield return new WaitForSeconds(2.0f);
+        GetComponent<AiChase>().stop = false;
         yield return new WaitForSeconds(t);
+        
         //anim.Play("Dog_Idle");
         disturb = false; 
     }

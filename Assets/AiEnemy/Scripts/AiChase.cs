@@ -12,6 +12,7 @@ public class AiChase : MonoBehaviour
     private float distance;
     public float chickenUpdateTimer;
     public float chickenUpdateTimeInterval = .5f;
+    public bool stop = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,8 @@ public class AiChase : MonoBehaviour
     void Update()
     {
         
-       
+       if(!stop)
+       {
             if (player.transform.position.x < this.gameObject.transform.position.x)
             {
                 chickenSpriteRenderer.flipX = true;
@@ -50,10 +52,12 @@ public class AiChase : MonoBehaviour
         
         if (distance < 4)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            
+             transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
+            
             //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
         }
-        
+       }
 
 
        
