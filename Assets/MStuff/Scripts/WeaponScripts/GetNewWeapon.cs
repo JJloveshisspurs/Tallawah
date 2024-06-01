@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GetNewWeapon : MonoBehaviour
 {
     public GameObject textObj;
+    public TextMeshProUGUI textNed;
     public bool beingUsed = false;
     public WeaponLoadout weaponLoadout;
     // Start is called before the first frame update
@@ -33,6 +35,7 @@ public class GetNewWeapon : MonoBehaviour
         {
             obj.gameObject.GetComponent<InventoryScript>().GetWepnFunction();
             textObj.SetActive(true);
+            textNed.text = "You just got the water gun. Press c to change your weapon.";
             Time.timeScale = 0.0f;
             beingUsed = true;
             obj.gameObject.GetComponent<InventoryScript>().loadout[1] = weaponLoadout; 

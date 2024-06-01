@@ -14,6 +14,7 @@ public class PlayerManagementScript : MonoBehaviour
 
     //This hold the amount of money the character have
     public float currency = 1000.00f;
+    public float additionalCash =0.0f; 
 
 
     // Start is called before the first frame update

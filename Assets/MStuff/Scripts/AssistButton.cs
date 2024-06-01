@@ -64,7 +64,7 @@ public class AssistButton : MonoBehaviour
     public void UIcanvasSecond()
     {
         uiBlock.SetActive(true);
-        assistText.text = "You are now annoying enemies faster";
+        assistText.text = "You get more money for every cash";
     }
 
 
@@ -79,8 +79,8 @@ public class AssistButton : MonoBehaviour
 
     IEnumerator assistPower()
     {
-        GetComponent<InteractionButtonScript>().additionalPower = 3;
+        GetComponent<PlayerManagementScript>().additionalCash = 50.0f;
         yield return new WaitForSeconds(30f);
-        GetComponent<InteractionButtonScript>().additionalPower = 0;
+        GetComponent<PlayerManagementScript>().additionalCash = 50.0f;
     }
 }

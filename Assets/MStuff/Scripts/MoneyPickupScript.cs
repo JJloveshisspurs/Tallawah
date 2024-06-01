@@ -23,7 +23,7 @@ public class MoneyPickupScript : MonoBehaviour
         {
             if (obj.gameObject.GetComponent<PlayerManagementScript>() != null)
             {
-                obj.gameObject.GetComponent<PlayerManagementScript>().currency += hold;
+                obj.gameObject.GetComponent<PlayerManagementScript>().currency += hold + obj.gameObject.GetComponent<PlayerManagementScript>().additionalCash;
 
                 Destroy(gameObject);
              }
