@@ -40,7 +40,7 @@ public class PlayerManagementScript : MonoBehaviour
             }
             else
             {
-                float moneyout = currency *p;
+                int moneyout = Mathf.FloorToInt(currency *p);
                 currency -= moneyout;
                 eb.currency += moneyout;
                 invincible = true; 
